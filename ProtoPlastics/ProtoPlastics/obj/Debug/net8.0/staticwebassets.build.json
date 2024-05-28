@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4xPsyaW2rBMygPCtQQt5DWq2vQJHpyaXidWMk+ldpzU=",
+  "Hash": "IFZfS5NT8BnhtLvj24THi56P36fRfyXvZh34Oyx1+nU=",
   "Source": "ProtoPlastics",
   "BasePath": "_content/ProtoPlastics",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/blazor-ui.css"
+    },
+    {
+      "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/empty-image.png",
+      "SourceId": "ProtoPlastics",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/",
+      "BasePath": "_content/ProtoPlastics",
+      "RelativePath": "empty-image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/empty-image.png"
     },
     {
       "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/favicon.ico",

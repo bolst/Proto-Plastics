@@ -68,11 +68,11 @@
     string inputEmail { get; set; } = "";
     string inputMessage { get; set; } = "";
 
-    Validations validations;
+    Validations? validations;
 
     async Task OnClickedSubmit()
     {
-        if (await validations.ValidateAll())
+        if (await validations!.ValidateAll())
         {
 
         }

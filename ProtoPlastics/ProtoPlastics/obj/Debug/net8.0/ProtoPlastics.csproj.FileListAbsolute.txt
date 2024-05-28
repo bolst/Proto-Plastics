@@ -43,3 +43,4 @@
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ProtoPlastics.pdb
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ProtoPlastics.genruntimeconfig.cache
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ref/ProtoPlastics.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ProtoPlastics.sourcelink.json

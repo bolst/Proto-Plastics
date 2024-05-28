@@ -1,11 +1,46 @@
 @page "/machines"
 
+@if (machineSpecs != null)
+{
+    foreach (var machineSpec in machineSpecs)
+    {
+        Data.Spec spec = machineSpec;
+        @MachineSpecRF(spec)
+    }
+}
 
 
 @code {
 
-    protected override async Task OnInitializedAsync()
+    private RenderFragment MachineSpecRF(Data.Spec spec) => __builder =>
     {
+        <Div>
+            <Row RowColumns="RowColumns.Are2" Padding="Padding.Is3">
+                <Column ColumnSize="ColumnSize.Is4" TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto">
+                    <Image Source="empty-image.png" Text="@spec.Name" Fluid />
+                    <Lead>@spec.Name</Lead>
+                </Column>
+                <Column ColumnSize="ColumnSize.Is4" TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto">
+                    @foreach (var clampSpec in spec.ClampSpecs)
+                    {
+                        <Lead><Span TextWeight="TextWeight.Bold">@clampSpec.Label</Span> @clampSpec.Value @clampSpec.Unit</Lead>
+                    }
+                </Column>
+                <Column ColumnSize="ColumnSize.Is4" TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto">
+                    @foreach (var injSpec in spec.InjectionSpecs)
+                    {
+                        <Lead><Span TextWeight="TextWeight.Bold">@injSpec.Label</Span> @injSpec.Value @injSpec.Unit</Lead>
+                    }
+                </Column>
+            </Row>
+        </Div>
+    };
 
+    List<Data.Spec>? machineSpecs;
+
+    protected override void OnInitialized()
+    {
+        Data.MachineSpecs data = Api.MachineSpecs.Get();
+        machineSpecs = data.Specs;
     }
 }

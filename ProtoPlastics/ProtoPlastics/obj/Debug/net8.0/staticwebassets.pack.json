@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/css/blazor-ui.css"
     },
     {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/empty-image.png",
+      "PackagePath": "staticwebassets/empty-image.png"
+    },
+    {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
