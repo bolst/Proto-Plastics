@@ -1,0 +1,25 @@
+﻿@using Blazorise.Localization
+
+<Bar Breakpoint="Breakpoint.Desktop" Background="Background.Dark" ThemeContrast="ThemeContrast.Dark">
+    <BarBrand Padding="Padding.Is4.FromStart">
+        @*
+        <BarItem>
+        <BarLink To="" TextColor="TextColor.Primary">
+        <BarIcon IconName="customIcon" IconSize="IconSize.x2" />
+        </BarLink>
+        </BarItem>
+        *@
+    </BarBrand>
+    <BarMenu>
+        <Row Margin="Margin.IsAuto" RowColumns="RowColumns.Are4">
+            <TopMenuItem To="/">Home</TopMenuItem>
+            <TopMenuItem To="/machines">Machines</TopMenuItem>
+            <TopMenuItem To="/about">About</TopMenuItem>
+            <TopMenuItem To="/contact">Contact</TopMenuItem>
+        </Row>
+    </BarMenu>
+</Bar>
+@code {
+    RenderFragment customIcon =@<Image Source="proto-logo-white.png" style="width:50px; height: 50px" Fluid />;
+
+}

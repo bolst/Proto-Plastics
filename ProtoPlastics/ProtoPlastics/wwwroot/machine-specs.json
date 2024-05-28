@@ -1,0 +1,81 @@
+{
+    "specs": [
+        {
+            "name": "100 Ton Engel 6 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "27.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "8.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "19.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "N/A Tiebarless",
+                    "unit": ""
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "31.0 X 26.77",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "5.12",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/8\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "1",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "false",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2465",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "7.76",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "1.57",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "12:1",
+                    "unit": "ratio"
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "General Purpose",
+                    "unit": ""
+                }
+            ]
+        }
+    ]
+}

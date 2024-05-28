@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/scopedcss/projectbundle/ProtoPlastics.bundle.scp.css",
+      "PackagePath": "staticwebassets/ProtoPlastics.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/brand-logo.png",
+      "PackagePath": "staticwebassets/brand-logo.png"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/building-outside.png",
+      "PackagePath": "staticwebassets/building-outside.png"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/blazor-ui.css",
+      "PackagePath": "staticwebassets/css/blazor-ui.css"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/machine-specs.json",
+      "PackagePath": "staticwebassets/machine-specs.json"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo-black.svg",
+      "PackagePath": "staticwebassets/proto-logo-black.svg"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo-white.png",
+      "PackagePath": "staticwebassets/proto-logo-white.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ProtoPlastics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ProtoPlastics.props",
+      "PackagePath": "build\\ProtoPlastics.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ProtoPlastics.props",
+      "PackagePath": "buildMultiTargeting\\ProtoPlastics.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ProtoPlastics.props",
+      "PackagePath": "buildTransitive\\ProtoPlastics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
