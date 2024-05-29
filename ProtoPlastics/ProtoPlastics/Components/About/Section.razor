@@ -1,0 +1,49 @@
+@namespace ProtoPlastics.Components
+
+@{
+    var rowColumns = RowColumns.Are1.OnTablet.Are1.OnMobile;
+    var midColumnSize = ColumnSize.Is8.OnTablet.Is10.OnMobile;
+    if (LeftImage != null && RightImage != null)
+    {
+        rowColumns = RowColumns.Are3.OnTablet.Are1.OnMobile;
+    }
+    else if (LeftImage == null && RightImage == null)
+    {
+        rowColumns = RowColumns.Are1;
+        midColumnSize = ColumnSize.Is10;
+    }
+    else
+    {
+        rowColumns = RowColumns.Are2.OnTablet.Are1.OnMobile;
+    }
+}
+<Row RowColumns="@rowColumns" Padding="Padding.Is4.OnTablet.Is1.OnMobile">
+    @if (LeftImage != null)
+    {
+        var columnSize = (RightImage == null) ? ColumnSize.Is4.OnTablet.Is8.OnMobile :
+        ColumnSize.Is2.OnTablet.Is8.OnMobile;
+        <Column ColumnSize="@columnSize" Margin="Margin.IsAuto">
+            <Image Source="@LeftImage" Padding="Padding.Is4" Fluid />
+        </Column>
+    }
+    <Column ColumnSize="@midColumnSize" Margin="Margin.IsAuto">
+        <Heading>@Header</Heading>
+        @ChildContent
+    </Column>
+    @if (RightImage != null)
+    {
+        var columnSize = (LeftImage == null) ? ColumnSize.Is4.OnTablet.Is8.OnMobile :
+        ColumnSize.Is2.OnTablet.Is8.OnMobile;
+        <Column ColumnSize="@columnSize" Margin="Margin.IsAuto">
+            <Image Source="@RightImage" Padding="Padding.Is4" Fluid />
+        </Column>
+    }
+    </Row>
+
+    @code {
+
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string? LeftImage { get; set; } = null;
+    [Parameter] public string? RightImage { get; set; } = null;
+    [Parameter] public string Header { get; set; } = "";
+}
