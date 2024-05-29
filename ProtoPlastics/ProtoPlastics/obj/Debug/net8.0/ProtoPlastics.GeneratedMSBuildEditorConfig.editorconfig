@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvVG9wTWVudUl0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Machines/MachineSpecInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NYWNoaW5lcy9NYWNoaW5lU3BlY0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/TodoApp/TodoItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ub2RvQXBwL1RvZG9JdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

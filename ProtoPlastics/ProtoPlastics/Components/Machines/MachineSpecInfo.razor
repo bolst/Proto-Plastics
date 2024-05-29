@@ -1,0 +1,89 @@
+@namespace ProtoPlastics.Components
+
+@if (Specs != null)
+{
+    <Accordion Width="Width.Is75" Margin="Margin.IsAuto">
+    @foreach (var machineSpec in Specs)
+        {
+            Data.Spec spec = machineSpec;
+            @MachineSpecAccordionItem(spec)
+        }
+        </Accordion>
+}
+
+
+@code {
+    [Parameter] public List<Data.Spec>? Specs { get; set; } = null;
+
+    private RenderFragment MachineSpecAccordionItem(Data.Spec spec) => __builder =>
+    {
+        <AccordionItem>
+            <AccordionHeader>
+                <Heading Size="HeadingSize.Is2" Margin="Margin.IsAuto">
+                    <AccordionToggle TextWeight="TextWeight.Bold">@spec.Name</AccordionToggle>
+                </Heading>
+            </AccordionHeader>
+            <AccordionBody>
+                @MachineSpecInfoItem(spec)
+            </AccordionBody>
+        </AccordionItem>
+    };
+    private RenderFragment MachineSpecInfoItem(Data.Spec spec) => __builder =>
+    {
+        <Div>
+            <Row RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is3">
+                <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
+                    Margin="Margin.IsAuto" Padding="Padding.Is4.OnY.OnMobile">
+                    <Image Source="empty-image.png" Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded" Fluid />
+                </Column>
+                <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
+                    @ClampSpecInfoItem(spec.ClampSpecs)
+                </Column>
+                <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
+                    @InjSpecInfoItem(spec.InjectionSpecs)
+                </Column>
+            </Row>
+        </Div>
+    };
+
+    private RenderFragment ClampSpecInfoItem(List<Data.ClampSpec> clampSpecs) => __builder =>
+    {
+        <Table Shadow="Shadow.Small" Striped>
+            <TableHeader ThemeContrast="ThemeContrast.Dark">
+                <TableRow>
+                    <TableHeaderCell ColumnSpan="2">Clamp</TableHeaderCell>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                @foreach (var spec in clampSpecs)
+                {
+                    <TableRow VerticalAlignment="VerticalAlignment.Middle">
+                        <TableRowHeader>@spec.Label</TableRowHeader>
+                        <TableRowCell>@spec.Value @spec.Unit</TableRowCell>
+                    </TableRow>
+                }
+            </TableBody>
+        </Table>
+    };
+
+    private RenderFragment InjSpecInfoItem(List<Data.InjectionSpec> injSpecs) => __builder =>
+    {
+        <Table Shadow="Shadow.Small" Striped>
+            <TableHeader ThemeContrast="ThemeContrast.Dark">
+                <TableRow>
+                    <TableHeaderCell ColumnSpan="2">Injection</TableHeaderCell>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                @foreach (var spec in injSpecs)
+                {
+                    <TableRow VerticalAlignment="VerticalAlignment.Middle">
+                        <TableRowHeader>@spec.Label</TableRowHeader>
+                        <TableRowCell Margin="Margin.IsAuto">@spec.Value @spec.Unit</TableRowCell>
+                    </TableRow>
+                }
+            </TableBody>
+        </Table>
+    };
+
+}

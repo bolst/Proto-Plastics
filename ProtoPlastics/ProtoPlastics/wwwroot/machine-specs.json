@@ -45,7 +45,7 @@
                 },
                 {
                     "label": "Hydraulic Mold Eject Available",
-                    "value": "false",
+                    "value": "no",
                     "unit": ""
                 }
             ],
