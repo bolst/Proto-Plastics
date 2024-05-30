@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject IVersionProvider VersionProvider
+@inject NavigationManager navManager
 
 <Div Padding="Padding.Is4.FromTop" class="card-class">
 
@@ -9,13 +10,61 @@
 
     <Row RowColumns="RowColumns.Are2">
         <Column ColumnSize="ColumnSize.Is6" Position="Position.Relative">
-            <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2"
-                Position="Position.Absolute.Top.Is50.Start.Is50.Translate.Middle">Label</Lead>
+            <Div Position="Position.Absolute.Top.Is50.Start.Is50.Translate.Middle">
+                <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Different Machines</Lead>
+                <Button Clicked='() => navManager.NavigateTo("/machines", true)' TextColor="TextColor.Secondary">MACHINE
+                    SPECS
+                    <Icon Name="IconName.ArrowRight" />
+                </Button>
+            </Div>
         </Column>
         <Column ColumnSize="ColumnSize.Is6">
             <Image Source="empty-image.png" Padding="Padding.Is4" Fluid />
         </Column>
     </Row>
+</Div>
+
+<Div Padding="Padding.Is4">
+    <Section Header="Innovating Excellence" LeftImage="proto-logo-black.svg">
+        <Lead>
+            For over 30 years, Proto Plastics has been a trusted leader in the plastic injection molding industry. Our
+            journey began with a commitment to quality and innovation, and over the decades, we have consistently
+            delivered exceptional solutions to a diverse range of industries. With a wealth of experience, we pride
+            ourselves on our ability to handle complex projects and deliver
+            precision-crafted components that meet the highest standards. Our longevity in the industry is a testament
+            to our unwavering dedication to customer satisfaction, technological advancement, and continuous
+            improvement.
+        </Lead>
+    </Section>
+
+    <Section Header="Commitment to Quality" LeftImage="empty-image.png">
+        <Lead>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever
+        </Lead>
+    </Section>
+
+    <Section Header="Why us?">
+        <Row RowColumns="RowColumns.Are3" Padding="Padding.Is4.OnY">
+        <Column ColumnSize="ColumnSize.Is4">
+            <Icon Name="IconName.HandsHelping" IconSize="IconSize.x4"/>
+            <Lead Padding="Padding.Is4.FromTop">Reason number 1</Lead>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is4">
+            <Icon Name="IconName.Gavel" IconSize="IconSize.x4"/>
+            <Lead Padding="Padding.Is4.FromTop">Reason number 2</Lead>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is4">
+            <Icon Name="IconName.Star" IconSize="IconSize.x4"/>
+            <Lead Padding="Padding.Is4.FromTop">Reason number 3</Lead>
+        </Column>
+        </Row>
+    </Section>
 </Div>
 
 <Div Padding="Padding.Is4">
@@ -34,33 +83,6 @@
             </Lead>
         </CardBody>
     </Card>
-</Div>
-
-<Div Padding="Padding.Is4">
-    <Section Header="Header" LeftImage="proto-logo-black.svg">
-        <Lead>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever
-        </Lead>
-    </Section>
-
-    <Section Header="Delivering">
-        <Lead>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever
-        </Lead>
-    </Section>
-
 </Div>
 
 <style>
