@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/scopedcss/projectbundle/ProtoPlastics.bundle.scp.css",
-      "PackagePath": "staticwebassets/ProtoPlastics.bundle.scp.css"
-    },
-    {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/brand-logo.png",
       "PackagePath": "staticwebassets/brand-logo.png"
     },
@@ -15,6 +11,14 @@
     {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/blazor-ui.css",
       "PackagePath": "staticwebassets/css/blazor-ui.css"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/fonts/IBMPlexSans-Bold.ttf",
+      "PackagePath": "staticwebassets/css/fonts/IBMPlexSans-Bold.ttf"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/fonts/IBMPlexSans-Regular.ttf",
+      "PackagePath": "staticwebassets/css/fonts/IBMPlexSans-Regular.ttf"
     },
     {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/empty-image.png",

@@ -1,18 +1,122 @@
 @page "/machines"
 
+@*
 @if (machineSpecs != null)
 {
-    <MachineSpecInfo Specs="@machineSpecs" />
+<MachineSpecInfo Specs="@machineSpecs" />
 }
+*@
+
+<Layout Sider>
+    <Grid RowColumns="RowColumns.Are2.OnDesktop.Are1">
+<Column ColumnSize="ColumnSize.Is2.OnDesktop.IsAuto" Style="z-index:1;">
+    <Button Display="Display.None.OnFullHD.Block" Clicked="ToggleSideBar"><Icon Name="IconName.Bars"/></Button>
+    <LayoutSider Position="Position.Fixed">
+        <LayoutSiderContent>
+            <Bar Mode="BarMode.VerticalInline" CollapseMode="BarCollapseMode.Hide" MenuToggleBehavior="BarMenuToggleBehavior.AllowSingleMenu" Breakpoint="Breakpoint.Desktop"
+                NavigationBreakpoint="Breakpoint.Tablet" ThemeContrast="ThemeContrast.Light" @bind-Visible="@barVisible">
+                <BarMenu>
+                    <BarStart>
+                        @if (machineSpecs != null)
+                        {
+                            foreach (var machineSpec in machineSpecs)
+                            {
+                                Data.Spec spec = machineSpec;
+                                <BarItem Padding="Padding.Is1.OnY">
+                                    <BarLink To='@("#" + spec.Name)'>
+                                        @spec.Name
+                                    </BarLink>
+                                </BarItem>
+
+                            }
+                        }
+                    </BarStart>
+                </BarMenu>
+            </Bar>
+        </LayoutSiderContent>
+    </LayoutSider>
+</Column>
+<Column ColumnSize="ColumnSize.Is10.OnDesktop.Is12" Style="z-index:0;" >
+    <Layout>
+        <LayoutContent>
+
+    @if (machineSpecs != null)
+    {
+        foreach (var machineSpec in machineSpecs)
+        {
+            Data.Spec spec = machineSpec;
+            <Div id="@spec.Name">
+                <Row RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is3">
+                    <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
+                        Margin="Margin.IsAuto" Padding="Padding.Is4.OnY.OnMobile">
+                        <Image Source="empty-image.png" Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded"
+                            Fluid />
+                        <Lead Padding="Padding.Is3.FromTop">@spec.Name</Lead>
+                    </Column>
+                    <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
+                        <Table Shadow="Shadow.Small" Striped>
+                            <TableHeader ThemeContrast="ThemeContrast.Dark">
+                                <TableRow>
+                                    <TableHeaderCell ColumnSpan="2">Clamp</TableHeaderCell>
+                                </TableRow>
+                            </TableHeader>
+                            <TableBody>
+                                @foreach (var clampSpec in spec.ClampSpecs)
+                                {
+                                    <TableRow VerticalAlignment="VerticalAlignment.Middle">
+                                        <TableRowHeader>@clampSpec.Label</TableRowHeader>
+                                        <TableRowCell>@clampSpec.Value @clampSpec.Unit</TableRowCell>
+                                    </TableRow>
+                                }
+                            </TableBody>
+                        </Table>
+                    </Column>
+                    <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
+                        <Table Shadow="Shadow.Small" Striped>
+                            <TableHeader ThemeContrast="ThemeContrast.Dark">
+                                <TableRow>
+                                    <TableHeaderCell ColumnSpan="2">Injection</TableHeaderCell>
+                                </TableRow>
+                            </TableHeader>
+                            <TableBody>
+                                @foreach (var injSpec in spec.InjectionSpecs)
+                                {
+                                    <TableRow VerticalAlignment="VerticalAlignment.Middle">
+                                        <TableRowHeader>@injSpec.Label</TableRowHeader>
+                                        <TableRowCell Margin="Margin.IsAuto">@injSpec.Value @injSpec.Unit</TableRowCell>
+                                    </TableRow>
+                                }
+                            </TableBody>
+                        </Table>
+                    </Column>
+                </Row>
+            </Div>
+        }
+    }
+            </LayoutContent>
+    </Layout>
+    </Column>
+    </Grid>
+
+    </Layout>
 
 
-@code {
+    @code {
 
     List<Data.Spec>? machineSpecs;
+    
+    bool barVisible = true;
+    
 
     protected override void OnInitialized()
     {
         Data.MachineSpecs data = Api.MachineSpecs.Get();
         machineSpecs = data.Specs;
+    }
+
+    Task ToggleSideBar()
+    {
+        barVisible = !barVisible;
+        return Task.CompletedTask;
     }
 }

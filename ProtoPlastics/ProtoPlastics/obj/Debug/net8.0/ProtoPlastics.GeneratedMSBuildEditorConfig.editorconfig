@@ -22,8 +22,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/About/Section.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BYm91dC9TZWN0aW9uLnJhem9y
+[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/Section.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib21lL1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/WelcomeCard.razor]
@@ -58,10 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0cy9NYWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/About.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,10 +73,6 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Layout/ThemeColorSelector.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvVGhlbWVDb2xvclNlbGVjdG9yLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-5e2ia3ec30
 
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s

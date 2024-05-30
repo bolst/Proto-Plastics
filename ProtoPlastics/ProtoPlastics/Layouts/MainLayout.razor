@@ -1,13 +1,15 @@
 ﻿@using ProtoPlastics.Components.Layout
-
+@inject NavigationManager navManager
 @inherits LayoutComponentBase
 
-
 <Layout>
-    <LayoutHeader Fixed>
+    <LayoutHeader Fixed="@(navManager.Uri != navManager.BaseUri)">
         <TopMenu />
     </LayoutHeader>
     <LayoutContent>
         @Body
     </LayoutContent>
+    <LayoutFooter>
+        <FooterMenu />
+    </LayoutFooter>
 </Layout>

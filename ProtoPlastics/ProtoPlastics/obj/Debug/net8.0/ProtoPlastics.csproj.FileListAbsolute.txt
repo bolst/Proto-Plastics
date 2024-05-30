@@ -34,9 +34,7 @@
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ProtoPlastics.props
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ProtoPlastics.props
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/staticwebassets.pack.json
-/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/scopedcss/Components/Layout/ThemeColorSelector.razor.rz.scp.css
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/scopedcss/bundle/ProtoPlastics.styles.css
-/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/scopedcss/projectbundle/ProtoPlastics.bundle.scp.css
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ProtoPlastics.csproj.CopyComplete
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/ProtoPlastics.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Debug/net8.0/refint/ProtoPlastics.dll

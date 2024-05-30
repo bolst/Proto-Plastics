@@ -2,7 +2,7 @@
 
 @if (Specs != null)
 {
-    <Accordion Width="Width.Is75" Margin="Margin.IsAuto">
+    <Accordion Width="Width.Is75" Margin="Margin.IsAuto" Shadow="Shadow.Large">
     @foreach (var machineSpec in Specs)
         {
             Data.Spec spec = machineSpec;
@@ -19,9 +19,11 @@
     {
         <AccordionItem>
             <AccordionHeader>
-                <Heading Size="HeadingSize.Is2" Margin="Margin.IsAuto">
-                    <AccordionToggle TextWeight="TextWeight.Bold">@spec.Name</AccordionToggle>
-                </Heading>
+                <DisplayHeading Size="DisplayHeadingSize.Is1" Margin="Margin.IsAuto">
+                    <AccordionToggle TextSize="TextSize.Large" TextWeight="TextWeight.Bold" TextColor="TextColor.Dark"
+                        Background="Background.Light">
+                        @spec.Name</AccordionToggle>
+                </DisplayHeading>
             </AccordionHeader>
             <AccordionBody>
                 @MachineSpecInfoItem(spec)

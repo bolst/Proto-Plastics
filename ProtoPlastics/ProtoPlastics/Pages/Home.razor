@@ -1,9 +1,22 @@
 ﻿@page "/"
 @inject IVersionProvider VersionProvider
 
-<Row>
-    <WelcomeCard />
-</Row>
+<Div Padding="Padding.Is4.FromTop" class="card-class">
+
+    <Row>
+        <WelcomeCard CardWidth="Width.Is75" />
+    </Row>
+
+    <Row RowColumns="RowColumns.Are2">
+        <Column ColumnSize="ColumnSize.Is6" Position="Position.Relative">
+            <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2"
+                Position="Position.Absolute.Top.Is50.Start.Is50.Translate.Middle">Label</Lead>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is6">
+            <Image Source="empty-image.png" Padding="Padding.Is4" Fluid />
+        </Column>
+    </Row>
+</Div>
 
 <Div Padding="Padding.Is4">
     <Card Background="Background.Secondary">
@@ -22,3 +35,37 @@
         </CardBody>
     </Card>
 </Div>
+
+<Div Padding="Padding.Is4">
+    <Section Header="Header" LeftImage="proto-logo-black.svg">
+        <Lead>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever
+        </Lead>
+    </Section>
+
+    <Section Header="Delivering">
+        <Lead>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever
+        </Lead>
+    </Section>
+
+</Div>
+
+<style>
+    .card-class {
+        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.7)), url('building-outside.png');
+        background-position: center;
+    }
+</style>
