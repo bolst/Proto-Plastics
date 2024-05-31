@@ -11,7 +11,7 @@
     <Row RowColumns="RowColumns.Are2">
         <Column ColumnSize="ColumnSize.Is6" Position="Position.Relative">
             <Div Position="Position.Absolute.Top.Is50.Start.Is50.Translate.Middle">
-                <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Different Machines</Lead>
+                <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Injection Molding Machines</Lead>
                 <Button Clicked='() => navManager.NavigateTo("/machines", true)' TextColor="TextColor.Secondary">MACHINE
                     SPECS
                     <Icon Name="IconName.ArrowRight" />
@@ -19,7 +19,7 @@
             </Div>
         </Column>
         <Column ColumnSize="ColumnSize.Is6">
-            <Image Source="empty-image.png" Padding="Padding.Is4" Fluid />
+            <Image Source=".png" Padding="Padding.Is4" Fluid />
         </Column>
     </Row>
 </Div>
@@ -37,57 +37,28 @@
         </Lead>
     </Section>
 
-    <Section Header="Commitment to Quality" LeftImage="empty-image.png">
-        <Lead>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever
-        </Lead>
-    </Section>
-
-    <Section Header="Why us?">
+    <Section Header="">
         <Row RowColumns="RowColumns.Are3" Padding="Padding.Is4.OnY">
-        <Column ColumnSize="ColumnSize.Is4">
-            <Icon Name="IconName.HandsHelping" IconSize="IconSize.x4"/>
-            <Lead Padding="Padding.Is4.FromTop">Reason number 1</Lead>
-        </Column>
-        <Column ColumnSize="ColumnSize.Is4">
-            <Icon Name="IconName.Gavel" IconSize="IconSize.x4"/>
-            <Lead Padding="Padding.Is4.FromTop">Reason number 2</Lead>
-        </Column>
-        <Column ColumnSize="ColumnSize.Is4">
-            <Icon Name="IconName.Star" IconSize="IconSize.x4"/>
-            <Lead Padding="Padding.Is4.FromTop">Reason number 3</Lead>
-        </Column>
+            <Column ColumnSize="ColumnSize.Is4">
+                <Icon Name="IconName.Star" IconSize="IconSize.x4" />
+                <Lead Padding="Padding.Is4.FromTop">Mold testing, service operations, limited batch
+                    production, and long-term manufacturing runs.</Lead>
+            </Column>
+            <Column ColumnSize="ColumnSize.Is4">
+                <Icon Name="IconName.Settings" IconSize="IconSize.x4" />
+                <Lead Padding="Padding.Is4.FromTop">Crane with maximum lift capacity of x tons</Lead>
+            </Column>
+            <Column ColumnSize="ColumnSize.Is4">
+                <Icon Name="IconName.HandsHelping" IconSize="IconSize.x4" />
+                <Lead Padding="Padding.Is4.FromTop">Blah blah blah this is the last thing we can put</Lead>
+            </Column>
         </Row>
     </Section>
 </Div>
 
-<Div Padding="Padding.Is4">
-    <Card Background="Background.Secondary">
-        <CardBody>
-            <Lead TextColor="TextColor.Primary" TextWeight="TextWeight.Default">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever
-            </Lead>
-        </CardBody>
-    </Card>
-</Div>
-
 <style>
     .card-class {
-        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.7)), url('building-outside.png');
+        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.6)), url('building-outside.png');
         background-position: center;
     }
 </style>

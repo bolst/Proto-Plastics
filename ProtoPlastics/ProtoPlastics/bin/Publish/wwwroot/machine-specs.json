@@ -1,0 +1,1005 @@
+{
+    "specs": [
+        {
+            "name": "100 Ton Engel 6 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "27.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "8.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "19.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "N/A Tiebarless",
+                    "unit": ""
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "31.0 X 26.77",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "5.12",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/8\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "1",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "no",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2465",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "7.76",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "1.57",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "12:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "General Purpose",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "170 Ton Van Dorn 14 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "35.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "6.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "18.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "20.0 X 20.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "29.0 X 29.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "4.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/16\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "1",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "8.9",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "1.97",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "230 Ton Van Dorn 20 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "42.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "7.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "22.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "22.0 X 22.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "32.0 X 32.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "4.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/16\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "1",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "10.13",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "2.36",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "315 Ton Haitian 15 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "48.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "9.06",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "28.74",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "24.8 X 24.8",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "36.61 X 36.61",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "5.91",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2900",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "9.48",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "1.96",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "11:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "400 Ton Van Dorn 30 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "54.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "8.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "28.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "28.0 X 28.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "42.0 X 42.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "6.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/16\" hole",
+                    "value": "Center, 7\" center to center, 4\" X 16\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "2",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2320",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "12.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "2.36",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "13:5",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "500 Ton Van Dorn 80 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "51.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "12.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "36.5 X 32.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "51.0 X 57.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "6.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/16\" hole & 2 1/8\" holes",
+                    "value": "Center, 7\" center to center, 4\" X 16\" & 6\" X 28\", 10\" X 40\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "2",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "14.6",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "3.15",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "700 Ton Van Dorn 125 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "58.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "14.0",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "N/A",
+                    "unit": ""
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "44.5 X 36.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "62.5 X 53.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "6",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/16\" hole & 2 1/8\" holes",
+                    "value": "Center, 7\" center to center, 4\" X 16\" & 6\" X 28\", 10\" X 40\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "2",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "16.75",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "4.13",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "730 Ton Haitian 45.68 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "80.79",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "15.75",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "49.2",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "40.94 X 35.83",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "55.12 X 53.15",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "6.8",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1\" hole & 2\" holes",
+                    "value": "Center, 7\" center to center, 4\" X 16\" & 6\" X 28\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "4",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2300",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "12.67",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "2.95",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "0.3347337962962963",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "1000 Ton Van Dorn 165 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "spacer in:60 & spacer out:72",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "spacer in:12 & spacer out:24",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "52 X 44",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "73 X 65",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "8",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/18\" hole & 2 1/8\" holes",
+                    "value": "4\" X 16\" & 6\" X 28\", 10\" X 40\", 16\" X 52\" *(16\" X 64\")",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "3",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "21",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "4.53",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "13:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "1100 Ton Van Dorn 140 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "94.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "20",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "51",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "55 X 45",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "69 X 59",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "10.8",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/18\" hole & 2 1/8\" holes",
+                    "value": "4\" X 16\" & 6\" X 28\", 10\" X 40\", 16\" X 52\" ",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "3",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2320",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "17.3",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "4.33",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "1800 Ton Haitian 200 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "131.89",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "29.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "74.8",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "73.82 X 56.69",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "99.6 X 82.48",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "10.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "1 1/18\" hole & 2 1/8\" holes",
+                    "value": "",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "4",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2654",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "25",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "4.724",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "8.7:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "2000 Ton Haitian 400 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "no spacers:105, 1 spacer: 95, 2 spacers: 90, 3 spacers: 80",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "no spacers: 42, 1 spacer: 32, 2 spacers: 27, 3 spacers: 17",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "72 X 52",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "100 X 81",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "10",
+                    "unit": "inches"
+                },
+                {
+                    "label": "2 1/8\" holes",
+                    "value": "6\" X 28\", 10\" X 40\", 16\" X 52\", 16\" X 64\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "5",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "24.5",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "6.1",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        },
+        {
+            "name": "3000 Ton Haitian 600 oz",
+            "clamp specs": [
+                {
+                    "label": "Max Daylight",
+                    "value": "no spacers:137, 1 spacer: 128, 2 spacers: 113",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (min)",
+                    "value": "no spacers: 54, 1 spacer: 44.5, 2 spacers: 30",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Mold Height (max)",
+                    "value": "",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Distance between Tiebars (HxV)",
+                    "value": "84 X 67",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Platen Size (HxV)",
+                    "value": "119 X 99",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Ejector Stroke",
+                    "value": "10",
+                    "unit": "inches"
+                },
+                {
+                    "label": "2 1/8\" holes",
+                    "value": "6\" X 28\", 10\" X 40\", 16\" X 52\", 16\" X 64\", 16\" X 76\", 28\" X 72\", 28\" X 84\"",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Core Pulls Available",
+                    "value": "6",
+                    "unit": ""
+                },
+                {
+                    "label": "Hydraulic Mold Eject Available",
+                    "value": "yes",
+                    "unit": ""
+                }
+            ],
+            "injection specs": [
+                {
+                    "label": "Maximum Injection Pressure",
+                    "value": "2000",
+                    "unit": "psi"
+                },
+                {
+                    "label": "Maximum Shot Size",
+                    "value": "30",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Screw Diameter",
+                    "value": "7.09",
+                    "unit": "inches"
+                },
+                {
+                    "label": "Intensifcation Ratio",
+                    "value": "10:1",
+                    "unit": ""
+                },
+                {
+                    "label": "Equipped Screw",
+                    "value": "Barrier",
+                    "unit": ""
+                }
+            ]
+        }
+    ]
+}

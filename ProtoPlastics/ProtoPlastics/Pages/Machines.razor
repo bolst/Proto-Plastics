@@ -45,11 +45,12 @@
         foreach (var machineSpec in machineSpecs)
         {
             Data.Spec spec = machineSpec;
+            string imageSource = spec.Name + ".png";
             <Div id="@spec.Name">
                 <Row RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is3">
                     <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
                         Margin="Margin.IsAuto" Padding="Padding.Is4.OnY.OnMobile">
-                        <Image Source="empty-image.png" Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded"
+                        <Image Source="@imageSource"  Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded"
                             Fluid />
                         <Lead Padding="Padding.Is3.FromTop">@spec.Name</Lead>
                     </Column>
