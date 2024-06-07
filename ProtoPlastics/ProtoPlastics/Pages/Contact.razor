@@ -48,6 +48,13 @@
             <Validations @ref="validations" Mode="ValidationMode.Manual">
                 <Field>
                     <FieldBody>
+                        <Validation Validator="ValidationRule.IsNotEmpty">
+                            <TextEdit Placeholder="Name" @bind-Text="@inputName" />
+                        </Validation>
+                    </FieldBody>
+                </Field>
+                <Field>
+                    <FieldBody>
                         <Validation Validator="ValidationRule.IsEmail">
                             <TextEdit Placeholder="Email" @bind-Text="@inputEmail" />
                         </Validation>
@@ -91,6 +98,7 @@
     "https://www.google.com/maps/place/Proto+Plastics+Canada+Ltd/@42.2350196,-82.9764213,16z/data=!3m1!4b1!4m6!3m5!1s0x883b290e2ed510b3:0x585ddd600b120f6f!8m2!3d42.2350196!4d-82.9738464!16s%2Fg%2F1tdl6sy0?entry=ttu";
     string inputSubject { get; set; } = "";
     ValidationStatus isNameValid { get; set; } = ValidationStatus.Success;
+    string inputName { get; set; } = "";
     string inputEmail { get; set; } = "";
     string inputMessage { get; set; } = "";
 
@@ -100,7 +108,7 @@
     {
         if (await validations!.ValidateAll())
         {
-            await Api.SendEmailService.Instance().Call(inputEmail, inputSubject, inputMessage);
+            await Api.SendEmailService.Instance().Call(inputName, inputEmail, inputSubject, inputMessage);
             navManager.NavigateTo("/", true);
         }
     }

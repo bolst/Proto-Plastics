@@ -21,7 +21,7 @@ namespace ProtoPlastics.Api
 
         private SmtpClient smtpClient;
 
-        public async Task<bool> Call(string emailTo, string subject, string body)
+        public async Task<bool> Call(string name, string emailTo, string subject, string body)
         {
             Console.WriteLine("Email sent");
             return true;

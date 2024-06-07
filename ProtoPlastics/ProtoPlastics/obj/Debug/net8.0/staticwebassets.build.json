@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g1TMXkgB4VDx5HUpMPVyxNBgpdqcpEyMNnOnSsQv0Yo=",
+  "Hash": "v1VVZF5BQNRVFYt8kpEm7DolQoqmiNvwj0Mt8iPIq6s=",
   "Source": "ProtoPlastics",
   "BasePath": "_content/ProtoPlastics",
   "Mode": "Default",
@@ -1706,6 +1706,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/proto-logo-white.png"
+    },
+    {
+      "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo.png",
+      "SourceId": "ProtoPlastics",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/",
+      "BasePath": "_content/ProtoPlastics",
+      "RelativePath": "proto-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/proto-logo.png"
     }
   ]
 }

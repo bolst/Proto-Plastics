@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets/proto-logo-white.png"
     },
     {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo.png",
+      "PackagePath": "staticwebassets/proto-logo.png"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ProtoPlastics.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
