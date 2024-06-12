@@ -4,24 +4,23 @@
 
 <Div Padding="Padding.Is4.FromTop" class="card-class">
 
-    <Row>
-        <WelcomeCard CardWidth="Width.Is75" />
-    </Row>
+    <WelcomeCard CardWidth="Width.Is75" />
 
-    <Row RowColumns="RowColumns.Are2.OnTablet.Are1.OnMobile">
-        <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center" Flex="Flex.JustifyContent.Center">
-                <Div Margin="Margin.IsAuto">
-                <Lead  TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Injection Molding Machines</Lead>
-                <Button  Clicked='() => navManager.NavigateTo("/machines", true)' TextColor="TextColor.Secondary">MACHINE
+    <Grid RowColumns="RowColumns.Are2.OnTablet.Are1.OnMobile">
+        <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
+            Flex="Flex.JustifyContent.Center">
+            <Div Margin="Margin.IsAuto">
+                <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Injection Molding Machines</Lead>
+                <Button Clicked='() => navManager.NavigateTo("/machines", true)' TextColor="TextColor.Secondary">MACHINE
                     SPECS
                     <Icon Name="IconName.ArrowRight" />
                 </Button>
-                </Div>
+            </Div>
         </Column>
         <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile">
             <Image Source="empty-image.png" Padding="Padding.Is4" Fluid />
         </Column>
-    </Row>
+    </Grid>
 </Div>
 
 <Div Padding="Padding.Is4">
@@ -38,21 +37,21 @@
     </Section>
 
     <Section Header="">
-        <Row RowColumns="RowColumns.Are3" Padding="Padding.Is4.OnY">
-            <Column ColumnSize="ColumnSize.Is4">
+        <Grid RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is4.OnY">
+            <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile">
                 <Icon Name="IconName.Star" IconSize="IconSize.x4" />
-                <Lead Padding="Padding.Is4.FromTop">Mold testing, service operations, limited batch
-                    production, and long-term manufacturing runs.</Lead>
+                <Lead Padding="Padding.Is4.FromTop">Mold testing, service operations, and limited batch
+                    production.</Lead>
             </Column>
-            <Column ColumnSize="ColumnSize.Is4">
+            <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile">
                 <Icon Name="IconName.Settings" IconSize="IconSize.x4" />
-                <Lead Padding="Padding.Is4.FromTop">Crane with maximum lift capacity of x tons</Lead>
+                <Lead Padding="Padding.Is4.FromTop">Cranes with lift capacity of up to 40 tons</Lead>
             </Column>
-            <Column ColumnSize="ColumnSize.Is4">
+            <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile">
                 <Icon Name="IconName.HandsHelping" IconSize="IconSize.x4" />
                 <Lead Padding="Padding.Is4.FromTop">Blah blah blah this is the last thing we can put</Lead>
             </Column>
-        </Row>
+        </Grid>
     </Section>
 </Div>
 

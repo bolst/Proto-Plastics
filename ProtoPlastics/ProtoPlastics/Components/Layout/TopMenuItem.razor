@@ -1,6 +1,6 @@
 @inject NavigationManager NavManager
 
-<Column Border="@MyBorder" TextAlignment="TextAlignment.Center">
+<Column Border="@MyBorder" TextAlignment="TextAlignment.Center" ColumnSize="ColumnSize.Is4">
     <BarItem TextColor="@TextColor" @onmouseout="@OnMouseOut" @onmouseover="@OnMouseOver">
         <BarLink To="@To" Clicked="@OnButtonClick" TextColor="@TextColor">
             @ChildContent
