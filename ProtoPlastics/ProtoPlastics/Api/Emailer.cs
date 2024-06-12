@@ -19,10 +19,9 @@ namespace ProtoPlastics.Api
             Console.WriteLine("Created SendEmailService");
         }
 
-        private SmtpClient smtpClient;
-
         public async Task<bool> Call(string name, string emailTo, string subject, string body)
         {
+            await Task.Delay(0);
             Console.WriteLine("Email sent");
             return true;
         }

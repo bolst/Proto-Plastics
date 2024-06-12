@@ -62,7 +62,7 @@
                                 </TableRow>
                             </TableHeader>
                             <TableBody>
-                                @foreach (var clampSpec in spec.ClampSpecs)
+                                @foreach (var clampSpec in spec.ClampSpecs!)
                                 {
                                     <TableRow VerticalAlignment="VerticalAlignment.Middle">
                                         <TableRowHeader>@clampSpec.Label</TableRowHeader>
@@ -80,7 +80,7 @@
                                 </TableRow>
                             </TableHeader>
                             <TableBody>
-                                @foreach (var injSpec in spec.InjectionSpecs)
+                                @foreach (var injSpec in spec.InjectionSpecs!)
                                 {
                                     <TableRow VerticalAlignment="VerticalAlignment.Middle">
                                         <TableRowHeader>@injSpec.Label</TableRowHeader>

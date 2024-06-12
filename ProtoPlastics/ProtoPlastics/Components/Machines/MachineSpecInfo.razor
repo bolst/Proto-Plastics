@@ -39,10 +39,10 @@
                     <Image Source="empty-image.png" Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded" Fluid />
                 </Column>
                 <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
-                    @ClampSpecInfoItem(spec.ClampSpecs)
+                    @ClampSpecInfoItem(spec.ClampSpecs!)
                 </Column>
                 <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
-                    @InjSpecInfoItem(spec.InjectionSpecs)
+                    @InjSpecInfoItem(spec.InjectionSpecs!)
                 </Column>
             </Row>
         </Div>

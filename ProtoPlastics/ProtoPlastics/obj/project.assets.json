@@ -803,26 +803,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nic\\.nuget\\packages\\": {}
+    "/Users/nic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nic\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
+      "projectUniqueName": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
       "projectName": "ProtoPlastics",
-      "projectPath": "C:\\Users\\Nic\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
-      "packagesPath": "C:\\Users\\Nic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nic\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\obj\\",
+      "projectPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
+      "packagesPath": "/Users/nic/.nuget/packages/",
+      "outputPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -873,7 +871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

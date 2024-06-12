@@ -19,14 +19,19 @@
 
     bool IsHovering = false;
 
-    protected override void OnInitialized()
+    protected override void OnAfterRender(bool firstRender)
     {
-        // if this tab is selected, keep the underline
-        if ("/" + NavManager.Uri.Replace(NavManager.BaseUri, "") == To)
+        if (firstRender)
         {
-            MyBorder = Border.Is3.Secondary.OnBottom;
-            DefaultBorder = Border.Is3.Secondary.OnBottom;
+            // if this tab is selected, keep the underline
+            if ("/" + NavManager.Uri.Replace(NavManager.BaseUri, "") == To)
+            {
+                MyBorder = Border.Is3.Secondary.OnBottom;
+                DefaultBorder = Border.Is3.Secondary.OnBottom;
+                StateHasChanged();
+            }
         }
+        base.OnAfterRender(firstRender);
     }
 
     protected void OnButtonClick()
