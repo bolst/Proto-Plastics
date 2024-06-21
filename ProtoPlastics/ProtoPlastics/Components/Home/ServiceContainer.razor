@@ -1,0 +1,9 @@
+@namespace ProtoPlastics.Components
+
+<Grid RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is4.OnY.OnTablet.Is4.FromTop.OnMobile">
+    @ChildContent
+</Grid>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}

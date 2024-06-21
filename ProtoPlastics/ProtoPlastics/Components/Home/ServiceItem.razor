@@ -1,0 +1,12 @@
+@namespace ProtoPlastics.Components
+
+<Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile">
+    <Icon Name="@Icon" IconSize="IconSize.x4" />
+    <Lead Padding="Padding.Is4.FromTop">@ChildContent</Lead>
+</Column>
+
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public IconName Icon { get; set; }
+}

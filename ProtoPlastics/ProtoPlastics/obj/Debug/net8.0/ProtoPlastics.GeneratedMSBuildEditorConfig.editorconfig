@@ -26,6 +26,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib21lL1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/ServiceContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib21lL1NlcnZpY2VDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/ServiceItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib21lL1NlcnZpY2VJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/WelcomeCard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ib21lL1dlbGNvbWVDYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
