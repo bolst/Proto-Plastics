@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj": {}
+    "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj": {}
   },
   "projects": {
-    "/home/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj": {
+    "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj": {
       "version": "1.5.0",
       "restore": {
-        "projectUniqueName": "/home/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
+        "projectUniqueName": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
         "projectName": "ProtoPlastics",
-        "projectPath": "/home/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
-        "packagesPath": "/home/nic/.nuget/packages/",
-        "outputPath": "/home/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/",
+        "projectPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
+        "packagesPath": "/Users/nic/.nuget/packages/",
+        "outputPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nic/.nuget/NuGet/NuGet.Config"
+          "/Users/nic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
