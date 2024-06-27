@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nO/113HHCWdpMtfH2aptabpTy9o3rG3KsfGHkwmLfU8=",
+  "Hash": "y3wj0vUf1/SNUFYfk0QE9Xug3ZsqRLROUKsyWQ/2iHg=",
   "Source": "ProtoPlastics",
   "BasePath": "_content/ProtoPlastics",
   "Mode": "Default",
@@ -1385,6 +1385,25 @@
       "OriginalItemSpec": "wwwroot/1800 Ton Haitian 200 oz.png"
     },
     {
+      "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/2000 Ton Haitian 400 oz.png",
+      "SourceId": "ProtoPlastics",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/",
+      "BasePath": "_content/ProtoPlastics",
+      "RelativePath": "2000 Ton Haitian 400 oz.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/2000 Ton Haitian 400 oz.png"
+    },
+    {
       "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/230 Ton Van Dorn 20 oz.png",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
@@ -1725,6 +1744,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/proto-logo.png"
+    },
+    {
+      "Identity": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/shop.png",
+      "SourceId": "ProtoPlastics",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/",
+      "BasePath": "_content/ProtoPlastics",
+      "RelativePath": "shop.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/shop.png"
     }
   ]
 }

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/1800 Ton Haitian 200 oz.png"
     },
     {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/2000 Ton Haitian 400 oz.png",
+      "PackagePath": "staticwebassets/2000 Ton Haitian 400 oz.png"
+    },
+    {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/230 Ton Van Dorn 20 oz.png",
       "PackagePath": "staticwebassets/230 Ton Van Dorn 20 oz.png"
     },
@@ -91,6 +95,10 @@
     {
       "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo.png",
       "PackagePath": "staticwebassets/proto-logo.png"
+    },
+    {
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/shop.png",
+      "PackagePath": "staticwebassets/shop.png"
     },
     {
       "Id": "obj/Release/net8.0/staticwebassets/msbuild.ProtoPlastics.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,16 +1,41 @@
 @namespace ProtoPlastics.Components
+@inject NavigationManager navManager
 
-<Card Width="@CardWidth" Margin="@CardMargin" Background="Background.Transparent" Border="Border.Is0">
-    <CardBody TextColor="TextColor.White" Border="Border.Is0">
-        <DisplayHeading Padding="Padding.Is4.FromTop.Is4.FromBottom">A Solution for Every
-            Industry</DisplayHeading>
-        <Lead Padding="Padding.Is4.FromBottom">At Proto Plastics, we specialize in delivering high-quality, custom
-            plastic injection molding solutions tailored to meet the unique needs of your industry. With decades of
-            experience and a commitment to excellence, we transform your vision into reality.</Lead>
-    </CardBody>
-</Card>
+<Carousel @bind-SelectedSlide="@selectedSlide" Interval="1000" ShowControls="false" Autoplay=false>
+    <CarouselSlide Name="1">
+        <Card Width="@CardWidth" Margin="@CardMargin" Background="Background.Transparent" Border="Border.Is0"
+            Height="Height.Is100.OnTablet.Is75.OnMobile" Padding="Padding.Is4.FromBottom.OnMobile">
+            <CardBody TextColor="TextColor.White" Border="Border.Is0">
+                <DisplayHeading Padding="Padding.Is4.FromTop.Is4.FromBottom">A Solution for Every
+                    Industry</DisplayHeading>
+                <Lead Padding="Padding.Is4.FromBottom">At Proto Plastics, we specialize in delivering high-quality,
+                    custom plastic injection molding solutions tailored to meet the unique needs of your industry. With
+                    decades of experience and a commitment to excellence, we transform your vision into reality.</Lead>
+
+                <Grid RowColumns="RowColumns.Are2.OnTablet.Are1.OnMobile">
+                    <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
+                        Flex="Flex.JustifyContent.Center">
+                        <Div Margin="Margin.IsAuto">
+                            <Lead TextColor="TextColor.White" TextSize="TextSize.Heading2">13 Injection Molding Machines
+                            </Lead>
+                        </Div>
+                    </Column>
+                    <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" Margin="Margin.IsAuto">
+                        <Button Clicked='() => navManager.NavigateTo("/machines", true)' TextColor="TextColor.Dark"
+                            Background="Background.Secondary">MACHINE
+                            SPECS
+                            <Icon Name="IconName.ArrowRight" />
+                        </Button>
+                    </Column>
+                </Grid>
+            </CardBody>
+        </Card>
+    </CarouselSlide>
+</Carousel>
 
 @code {
     [Parameter] public IFluentSizingMinMaxViewportOnBreakpoint CardWidth { get; set; } = Width.Is100;
     [Parameter] public IFluentSpacingOnBreakpointWithSideAndSize CardMargin { get; set; } = Margin.IsAuto;
+
+    private string selectedSlide = "1";
 }
