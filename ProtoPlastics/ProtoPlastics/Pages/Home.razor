@@ -2,10 +2,23 @@
 @inject IVersionProvider VersionProvider
 @inject NavigationManager navManager
 
+<HomeIntro />
+
+<Section Header="Our Specialties">
+    <ServiceContainer>
+        <ServiceItem CustomIcon="icons/molding-machine.png">Plastic injection molding</ServiceItem>
+        <ServiceItem CustomIcon="icons/clock.png">Short-run production</ServiceItem>
+        <ServiceItem CustomIcon="icons/mould.png">Tool and mold testing</ServiceItem>
+    </ServiceContainer>
+    <ServiceContainer>
+        <ServiceItem CustomIcon="icons/injection.png">Injection tryout testing</ServiceItem>
+        <ServiceItem CustomIcon="icons/crane.png">Cranes with lift capacity of up to 40 tons</ServiceItem>
+        <ServiceItem CustomIcon="icons/steel.png">Steel & aluminum options</ServiceItem>
+    </ServiceContainer>
+</Section>
+
 <Div Padding="Padding.Is4.FromTop" class="card-class">
-
     <WelcomeCard CardWidth="Width.Is75" />
-
 </Div>
 
 <Div Padding="Padding.Is4">
@@ -20,20 +33,10 @@
             improvement.
         </Lead>
     </Section>
-
-    <Section Header="">
-        <ServiceContainer>
-            <ServiceItem Icon="IconName.ArrowAltCircleDown">Plastic injection molding</ServiceItem>
-            <ServiceItem Icon="IconName.Clock">Short-run production</ServiceItem>
-            <ServiceItem Icon="IconName.Gavel">Tool and mold testing</ServiceItem>
-        </ServiceContainer>
-        <ServiceContainer>
-            <ServiceItem Icon="IconName.Indent">Injection tryout testing</ServiceItem>
-            <ServiceItem Icon="IconName.Settings">Cranes with lift capacity of up to 40 tons</ServiceItem>
-            <ServiceItem Icon="IconName.GripVertical">Steel & aluminum options</ServiceItem>
-        </ServiceContainer>
-    </Section>
 </Div>
+
+<ContactForm />
+
 
 <style>
     .card-class {

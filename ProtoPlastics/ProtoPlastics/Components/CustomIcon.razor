@@ -1,0 +1,13 @@
+@namespace ProtoPlastics.Components
+
+@if (IconSource != null)
+{
+    <Figure Size="@IconSize">
+        <FigureImage Source="@IconSource" />
+    </Figure>
+}
+
+@code {
+    [Parameter] public string? IconSource { get; set; }
+    [Parameter] public FigureSize IconSize { get; set; } = FigureSize.Is64x64;
+}

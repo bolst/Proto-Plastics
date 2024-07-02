@@ -1,0 +1,17 @@
+@namespace ProtoPlastics.Components
+
+<Carousel @bind-SelectedSlide="@selectedSlide" Autoplay=false ShowControls=false>
+    <HomeSlideContainer Name="1" BackgroundSource="shop.png">
+        <HomeSlide1 />
+    </HomeSlideContainer>
+    <HomeSlideContainer Name="2" BackgroundSource="shop.png">
+        <HomeSlide1 />
+    </HomeSlideContainer>
+    <HomeSlideContainer Name="3" BackgroundSource="shop.png">
+        <HomeSlide1 />
+    </HomeSlideContainer>
+</Carousel>
+
+@code {
+    private string selectedSlide = "1";
+}

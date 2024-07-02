@@ -2,24 +2,35 @@
 
 <Bar Breakpoint="Breakpoint.Desktop" Background="Background.Dark" ThemeContrast="ThemeContrast.Dark"
     Overflow="Overflow.Auto">
-    <BarBrand Padding="Padding.Is4.FromStart">
-        @*
-        <BarItem>
-        <BarLink To="" TextColor="TextColor.Primary">
-        <BarIcon IconName="customIcon" IconSize="IconSize.x2" />
-        </BarLink>
-        </BarItem>
-        *@
-    </BarBrand>
     <BarMenu>
-        <Grid Margin="Margin.IsAuto" RowColumns="RowColumns.Are3">
-            <TopMenuItem To="/">Home</TopMenuItem>
-            <TopMenuItem To="/machines">Machines</TopMenuItem>
-            <TopMenuItem To="/contact">Contact</TopMenuItem>
-        </Grid>
+        <BarStart Display="Display.Block.OnTablet.None.OnMobile">
+            <Grid RowColumns="RowColumns.Are3.OnTablet">
+                <Column ColumnSize="ColumnSize.Is2" Margin="Margin.IsAuto">
+                    @customIcon
+                </Column>
+                <Column ColumnSize="ColumnSize.Is5" Margin="Margin.IsAuto.OnY">
+                    <Heading TextWeight="TextWeight.Bold" TextColor="TextColor.Secondary" Margin="Margin.IsAuto">
+                        PROTO-PLASTICS
+                    </Heading>
+                </Column>
+                <Column ColumnSize="ColumnSize.Is5" Margin="Margin.IsAuto.OnY">
+                    <Heading TextWeight="TextWeight.Bold" TextColor="TextColor.Secondary" Margin="Margin.IsAuto"
+                        TextSize="TextSize.Heading5">
+                        LEADERS NOT FOLLOWERS
+                    </Heading>
+                </Column>
+            </Grid>
+        </BarStart>
+        <BarItem>
+            <Grid Margin="Margin.IsAuto" RowColumns="RowColumns.Are3">
+                <TopMenuItem To="/">Home</TopMenuItem>
+                <TopMenuItem To="/machines">Machines</TopMenuItem>
+                <TopMenuItem To="/contact">Contact</TopMenuItem>
+            </Grid>
+        </BarItem>
     </BarMenu>
 </Bar>
 @code {
-    RenderFragment customIcon =@<Image Source="proto-logo-white.png" style="width:50px; height: 50px" Fluid />;
+    RenderFragment customIcon =@<Image Source="proto-logo-white.png" style="width:50px; height: 50px" Margin="Margin.IsAuto" />;
 
 }

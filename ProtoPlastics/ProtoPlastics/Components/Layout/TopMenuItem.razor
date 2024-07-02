@@ -1,7 +1,7 @@
 @inject NavigationManager NavManager
 
-<Column Border="@MyBorder" TextAlignment="TextAlignment.Center" ColumnSize="ColumnSize.Is4">
-    <BarItem TextColor="@TextColor" @onmouseout="@OnMouseOut" @onmouseover="@OnMouseOver">
+<Column TextAlignment="TextAlignment.Center" ColumnSize="ColumnSize.Is4">
+    <BarItem>
         <BarLink To="@To" Clicked="@OnButtonClick" TextColor="@TextColor">
             @ChildContent
         </BarLink>
@@ -13,46 +13,11 @@
     [Parameter] public string To { get; set; } = "";
     [Parameter] public TextColor TextColor { get; set; } = TextColor.Secondary;
 
-
-    private IFluentBorderWithAll MyBorder = Border.Is3.Dark.OnBottom;
-    private IFluentBorderWithAll DefaultBorder = Border.Is3.Dark.OnBottom;
-
     bool IsHovering = false;
-
-    protected override void OnAfterRender(bool firstRender)
-    {
-        if (firstRender)
-        {
-            // if this tab is selected, keep the underline
-            if ("/" + NavManager.Uri.Replace(NavManager.BaseUri, "") == To)
-            {
-                MyBorder = Border.Is3.Secondary.OnBottom;
-                DefaultBorder = Border.Is3.Secondary.OnBottom;
-                StateHasChanged();
-            }
-        }
-        base.OnAfterRender(firstRender);
-    }
 
     protected void OnButtonClick()
     {
         NavManager.NavigateTo(To, true);
     }
 
-    protected void OnMouseOver(MouseEventArgs mouseEvent)
-    {
-        if (!IsHovering)
-        {
-            IsHovering = true;
-            MyBorder = Border.Is3.Secondary.OnBottom;
-            StateHasChanged();
-        }
-    }
-
-    protected void OnMouseOut(MouseEventArgs mouseEvent)
-    {
-        IsHovering = false;
-        MyBorder = DefaultBorder;
-        StateHasChanged();
-    }
 }

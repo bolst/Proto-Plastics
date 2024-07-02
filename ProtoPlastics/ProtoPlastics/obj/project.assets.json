@@ -27,6 +27,31 @@
           "buildMultiTargeting/Blazorise.props": {}
         }
       },
+      "Blazorise.Animate/1.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.5.3",
+          "Microsoft.AspNetCore.Components": "8.0.6",
+          "Microsoft.AspNetCore.Components.Web": "8.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Blazorise.Animate.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Blazorise.Animate.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.Animate.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.Animate.props": {}
+        }
+      },
       "Blazorise.Bootstrap5/1.5.3": {
         "type": "package",
         "dependencies": {
@@ -46,6 +71,51 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.Captcha/1.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.5.3",
+          "Microsoft.AspNetCore.Components": "8.0.6",
+          "Microsoft.AspNetCore.Components.Web": "8.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Blazorise.Captcha.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Blazorise.Captcha.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Blazorise.Captcha.ReCaptcha/1.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.5.3",
+          "Blazorise.Captcha": "1.5.3",
+          "Microsoft.AspNetCore.Components": "8.0.6",
+          "Microsoft.AspNetCore.Components.Web": "8.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Blazorise.Captcha.ReCaptcha.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Blazorise.Captcha.ReCaptcha.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.Captcha.ReCaptcha.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.Captcha.ReCaptcha.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.5.3": {
@@ -350,6 +420,31 @@
         "staticwebassets/vendors/sha512.js"
       ]
     },
+    "Blazorise.Animate/1.5.3": {
+      "sha512": "+98rRFGI4bnPXQoYn1au8O+08AhLv/tPg70uBUTSrkOsCI/dzJFAz69BxWgvMBzZ9NVZ9smzlgWCISRG8S2lcQ==",
+      "type": "package",
+      "path": "blazorise.animate/1.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.animate.1.5.3.nupkg.sha512",
+        "blazorise.animate.nuspec",
+        "build/Blazorise.Animate.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.Animate.props",
+        "buildTransitive/Blazorise.Animate.props",
+        "lib/net6.0/Blazorise.Animate.dll",
+        "lib/net6.0/Blazorise.Animate.xml",
+        "lib/net7.0/Blazorise.Animate.dll",
+        "lib/net7.0/Blazorise.Animate.xml",
+        "lib/net8.0/Blazorise.Animate.dll",
+        "lib/net8.0/Blazorise.Animate.xml",
+        "staticwebassets/aos.css",
+        "staticwebassets/blazorise.animate.js"
+      ]
+    },
     "Blazorise.Bootstrap5/1.5.3": {
       "sha512": "6RizD3l8WH4+3eaUG6OTrFgvoegV1yCO2hwHQO9lx2PLh8IO4x671ER6i/XZadWH8Wogi1ddsZ71rQnbkqDr0A==",
       "type": "package",
@@ -372,6 +467,49 @@
         "staticwebassets/blazorise.bootstrap5.min.css",
         "staticwebassets/modal.js",
         "staticwebassets/tooltip.js"
+      ]
+    },
+    "Blazorise.Captcha/1.5.3": {
+      "sha512": "yACed59HxRnfbN8WyA9QU9IkU8O0VwoVS6wzJLcOnpToEnwNrJbwRZiQE/JXd16r6UAceZNPNAm5vFy3Pc5xqg==",
+      "type": "package",
+      "path": "blazorise.captcha/1.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.captcha.1.5.3.nupkg.sha512",
+        "blazorise.captcha.nuspec",
+        "lib/net6.0/Blazorise.Captcha.dll",
+        "lib/net6.0/Blazorise.Captcha.xml",
+        "lib/net7.0/Blazorise.Captcha.dll",
+        "lib/net7.0/Blazorise.Captcha.xml",
+        "lib/net8.0/Blazorise.Captcha.dll",
+        "lib/net8.0/Blazorise.Captcha.xml"
+      ]
+    },
+    "Blazorise.Captcha.ReCaptcha/1.5.3": {
+      "sha512": "hcY97F2c0yGRXI0uoHdZjuL4M9E+PP4LWf5K05smalvPRl4Z6qEzSEAZDJE8w1iiB/3kacetw2be6DeDp/LYyA==",
+      "type": "package",
+      "path": "blazorise.captcha.recaptcha/1.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.captcha.recaptcha.1.5.3.nupkg.sha512",
+        "blazorise.captcha.recaptcha.nuspec",
+        "build/Blazorise.Captcha.ReCaptcha.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.Captcha.ReCaptcha.props",
+        "buildTransitive/Blazorise.Captcha.ReCaptcha.props",
+        "lib/net6.0/Blazorise.Captcha.ReCaptcha.dll",
+        "lib/net6.0/Blazorise.Captcha.ReCaptcha.xml",
+        "lib/net7.0/Blazorise.Captcha.ReCaptcha.dll",
+        "lib/net7.0/Blazorise.Captcha.ReCaptcha.xml",
+        "lib/net8.0/Blazorise.Captcha.ReCaptcha.dll",
+        "lib/net8.0/Blazorise.Captcha.ReCaptcha.xml",
+        "staticwebassets/blazorise.recaptcha.js"
       ]
     },
     "Blazorise.Icons.FontAwesome/1.5.3": {
@@ -798,29 +936,40 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Blazorise >= 1.5.*",
+      "Blazorise.Animate >= 1.5.3",
       "Blazorise.Bootstrap5 >= 1.5.*",
+      "Blazorise.Captcha >= 1.5.3",
+      "Blazorise.Captcha.ReCaptcha >= 1.5.3",
       "Blazorise.Icons.FontAwesome >= 1.5.*"
     ]
   },
   "packageFolders": {
-    "/Users/nic/.nuget/packages/": {}
+    "C:\\Users\\nicbo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.5.0",
     "restore": {
-      "projectUniqueName": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
+      "projectUniqueName": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
       "projectName": "ProtoPlastics",
-      "projectPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
-      "packagesPath": "/Users/nic/.nuget/packages/",
-      "outputPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/",
+      "projectPath": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
+      "packagesPath": "C:\\Users\\nicbo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/nic/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\nicbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -833,6 +982,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -843,9 +997,21 @@
             "target": "Package",
             "version": "[1.5.*, )"
           },
+          "Blazorise.Animate": {
+            "target": "Package",
+            "version": "[1.5.3, )"
+          },
           "Blazorise.Bootstrap5": {
             "target": "Package",
             "version": "[1.5.*, )"
+          },
+          "Blazorise.Captcha": {
+            "target": "Package",
+            "version": "[1.5.3, )"
+          },
+          "Blazorise.Captcha.ReCaptcha": {
+            "target": "Package",
+            "version": "[1.5.3, )"
           },
           "Blazorise.Icons.FontAwesome": {
             "target": "Package",
@@ -871,7 +1037,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

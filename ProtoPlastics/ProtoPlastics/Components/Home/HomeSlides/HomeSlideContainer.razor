@@ -1,0 +1,21 @@
+@namespace ProtoPlastics.Components
+
+<CarouselSlide Name="@Name">
+    <Div Class="home-slide-class" Height="Height.Em(50)">
+        @ChildContent
+    </Div>
+</CarouselSlide>
+
+<style>
+    .home-slide-class {
+        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.6)), url("shop.png");
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string Name { get; set; } = "1";
+    [Parameter] public string BackgroundSource { get; set; } = "building-outside.png";
+}

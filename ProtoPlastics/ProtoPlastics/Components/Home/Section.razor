@@ -17,7 +17,7 @@
         rowColumns = RowColumns.Are2.OnTablet.Are1.OnMobile;
     }
 }
-<Row RowColumns="@rowColumns" Padding="Padding.Is4.OnTablet.Is1.OnMobile">
+<Grid RowColumns="@rowColumns" Padding="Padding.Is4.OnTablet.Is1.OnX.Is4.OnY.OnMobile">
     @if (LeftImage != null)
     {
         var columnSize = (RightImage == null) ? ColumnSize.Is4.OnTablet.Is8.OnMobile :
@@ -27,7 +27,7 @@
         </Column>
     }
     <Column ColumnSize="@midColumnSize" Margin="Margin.IsAuto">
-        <DisplayHeading Size="DisplayHeadingSize.Is4">@Header</DisplayHeading>
+        <DisplayHeading Size="@HeaderSize">@Header</DisplayHeading>
         @ChildContent
     </Column>
     @if (RightImage != null)
@@ -38,12 +38,13 @@
             <Image Source="@RightImage" Padding="Padding.Is4" Fluid />
         </Column>
     }
-    </Row>
+</Grid>
 
-    @code {
+@code {
 
     [Parameter] public RenderFragment? ChildContent { get; set; }
     [Parameter] public string? LeftImage { get; set; } = null;
     [Parameter] public string? RightImage { get; set; } = null;
     [Parameter] public string Header { get; set; } = "";
+    [Parameter] public DisplayHeadingSize HeaderSize { get; set; } = DisplayHeadingSize.Is2;
 }
