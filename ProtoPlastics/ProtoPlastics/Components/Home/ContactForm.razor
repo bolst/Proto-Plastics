@@ -4,13 +4,13 @@
 <Grid RowColumns="RowColumns.Are2.OnTablet.Are1.OnMobile" Padding="Padding.Is4.FromBottom.OnTablet">
     <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" Margin="Margin.IsAuto" Padding="Padding.Is4">
         <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
-            @ContactItemRF(IconName.MapMarkerAlt, "1880 Blackacre Dr, Oldcastle, ON N0R 1L0", mapsLink)
+            @ContactItemRF(IconName.MapMarkerAlt, Api.Content.Address.FullAddress(), mapsLink)
         </Row>
         <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
-            @ContactItemRF(IconName.Phone, "(519) 737-7838", "tel:{(519) 737-7838}")
+            @ContactItemRF(IconName.Phone, Api.Content.Phone.Number, Api.Content.Phone.HTMLRef)
         </Row>
         <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
-            @ContactItemRF(IconName.Mail, "protop@mnsi.net", "mailto:protop@mnsi.net")
+            @ContactItemRF(IconName.Mail, Api.Content.Email.Address, Api.Content.Email.HTMLRef)
         </Row>
     </Column>
     <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" Background="Background.Dark" Padding="Padding.Is4">

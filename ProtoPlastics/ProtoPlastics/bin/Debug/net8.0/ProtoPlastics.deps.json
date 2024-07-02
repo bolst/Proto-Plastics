@@ -13,7 +13,8 @@
           "Blazorise.Bootstrap5": "1.5.3",
           "Blazorise.Captcha": "1.5.3",
           "Blazorise.Captcha.ReCaptcha": "1.5.3",
-          "Blazorise.Icons.FontAwesome": "1.5.3"
+          "Blazorise.Icons.FontAwesome": "1.5.3",
+          "LeafletForBlazor": "2.0.6.8"
         },
         "runtime": {
           "ProtoPlastics.dll": {}
@@ -109,6 +110,17 @@
           "lib/net8.0/Blazorise.Licensing.dll": {
             "assemblyVersion": "1.2.0.0",
             "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "LeafletForBlazor/2.0.6.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.6"
+        },
+        "runtime": {
+          "lib/net7.0/LeafletForBlazor.dll": {
+            "assemblyVersion": "2.0.6.8",
+            "fileVersion": "2.0.6.8"
           }
         }
       },
@@ -275,6 +287,13 @@
       "sha512": "sha512-h7jkAF+yyIKnUqFYivaxIySDma1zLV+0xcg52r2gIe772BLQWnBaANjpMBKXxRlYiEyOGPQWjMHJWs3dL/TgmA==",
       "path": "blazorise.licensing/1.2.0",
       "hashPath": "blazorise.licensing.1.2.0.nupkg.sha512"
+    },
+    "LeafletForBlazor/2.0.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6wG5aZsDWATsPmpDbZZmZ7kruq3vltl2odcMKYvkNbjzT1XuMPgg3SaUXlMVjXTkSmtbzsQTvgwYyRio/cAeIg==",
+      "path": "leafletforblazor/2.0.6.8",
+      "hashPath": "leafletforblazor.2.0.6.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.6": {
       "type": "package",

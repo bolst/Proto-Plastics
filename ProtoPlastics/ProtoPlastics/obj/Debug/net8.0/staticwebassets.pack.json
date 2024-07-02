@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\icons\\steel.png"
     },
     {
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\leafletmap.js",
+      "PackagePath": "staticwebassets\\leafletmap.js"
+    },
+    {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\machine-specs.json",
       "PackagePath": "staticwebassets\\machine-specs.json"
     },

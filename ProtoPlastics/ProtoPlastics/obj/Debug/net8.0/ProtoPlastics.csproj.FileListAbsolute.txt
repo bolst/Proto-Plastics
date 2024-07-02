@@ -45,3 +45,4 @@ C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\obj\Debug\net8.0\r
 C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\bin\Debug\net8.0\Blazorise.Animate.dll
 C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\bin\Debug\net8.0\Blazorise.Captcha.dll
 C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\bin\Debug\net8.0\Blazorise.Captcha.ReCaptcha.dll
+C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\bin\Debug\net8.0\LeafletForBlazor.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8iY7bOl0D9A=",
+  "dgSpecHash": "g9XY1wSCev8=",
   "success": true,
   "projectFilePath": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\nicbo\\.nuget\\packages\\blazorise.captcha.recaptcha\\1.5.3\\blazorise.captcha.recaptcha.1.5.3.nupkg.sha512",
     "C:\\Users\\nicbo\\.nuget\\packages\\blazorise.icons.fontawesome\\1.5.3\\blazorise.icons.fontawesome.1.5.3.nupkg.sha512",
     "C:\\Users\\nicbo\\.nuget\\packages\\blazorise.licensing\\1.2.0\\blazorise.licensing.1.2.0.nupkg.sha512",
+    "C:\\Users\\nicbo\\.nuget\\packages\\leafletforblazor\\2.0.6.8\\leafletforblazor.2.0.6.8.nupkg.sha512",
     "C:\\Users\\nicbo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.6\\microsoft.aspnetcore.authorization.8.0.6.nupkg.sha512",
     "C:\\Users\\nicbo\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.6\\microsoft.aspnetcore.components.8.0.6.nupkg.sha512",
     "C:\\Users\\nicbo\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.6\\microsoft.aspnetcore.components.analyzers.8.0.6.nupkg.sha512",

@@ -13,8 +13,6 @@
     [Parameter] public string To { get; set; } = "";
     [Parameter] public TextColor TextColor { get; set; } = TextColor.Secondary;
 
-    bool IsHovering = false;
-
     protected void OnButtonClick()
     {
         NavManager.NavigateTo(To, true);

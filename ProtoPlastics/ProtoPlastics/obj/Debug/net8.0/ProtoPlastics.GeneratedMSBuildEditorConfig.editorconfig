@@ -54,8 +54,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNlcnZpY2VJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/WelcomeCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFdlbGNvbWVDYXJkLnJhem9y
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/SloganCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNsb2dhbkNhcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Layout/FooterMenu.razor]
@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Machines/MachineSpecInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWNoaW5lc1xNYWNoaW5lU3BlY0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/ProtoMap.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm90b01hcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Layouts/MainLayout.razor]

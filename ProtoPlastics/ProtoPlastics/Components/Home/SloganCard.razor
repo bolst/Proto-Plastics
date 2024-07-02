@@ -1,0 +1,17 @@
+@namespace ProtoPlastics.Components
+@inject NavigationManager navManager
+
+<Card Width="@CardWidth" Margin="@CardMargin" Background="Background.Transparent" Border="Border.Is0"
+    Height="Height.Is100.OnTablet.Is75.OnMobile" Padding="Padding.Is4.FromBottom.OnMobile">
+    <CardBody TextColor="TextColor.White" Border="Border.Is0">
+        <DisplayHeading Padding="Padding.Is4.FromTop.Is4.FromBottom">LEADERS, NOT FOLLOWERS</DisplayHeading>
+        <Lead Padding="Padding.Is4.FromBottom">At Proto Plastics, we specialize in delivering high-quality,
+            custom plastic injection molding solutions tailored to meet the unique needs of your industry. With
+            decades of experience and a commitment to excellence, we transform your vision into reality.</Lead>
+    </CardBody>
+</Card>
+
+@code {
+    [Parameter] public IFluentSizingMinMaxViewportOnBreakpoint CardWidth { get; set; } = Width.Is100;
+    [Parameter] public IFluentSpacingOnBreakpointWithSideAndSize CardMargin { get; set; } = Margin.IsAuto;
+}

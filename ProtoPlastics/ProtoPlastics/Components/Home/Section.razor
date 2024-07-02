@@ -26,8 +26,8 @@
             <Image Source="@LeftImage" Padding="Padding.Is4" Fluid />
         </Column>
     }
-    <Column ColumnSize="@midColumnSize" Margin="Margin.IsAuto">
-        <DisplayHeading Size="@HeaderSize">@Header</DisplayHeading>
+    <Column ColumnSize="@midColumnSize" Margin="Margin.IsAuto" Padding="Padding.Is4.FromStart.OnMobile">
+        <DisplayHeading Size="@HeaderSize" TextColor="@HeaderColor">@Header</DisplayHeading>
         @ChildContent
     </Column>
     @if (RightImage != null)
@@ -47,4 +47,5 @@
     [Parameter] public string? RightImage { get; set; } = null;
     [Parameter] public string Header { get; set; } = "";
     [Parameter] public DisplayHeadingSize HeaderSize { get; set; } = DisplayHeadingSize.Is2;
+    [Parameter] public TextColor HeaderColor { get; set; } = TextColor.Dark;
 }
