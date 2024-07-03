@@ -1,19 +1,23 @@
 @namespace ProtoPlastics.Components
+@inject NavigationManager navManager
 
 <Grid RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile">
     <Column ColumnSize="ColumnSize.Is1"></Column>
     <Column ColumnSize="ColumnSize.Is6.OnTablet.Is10.OnMobile" Style="background-color: rgba(0,0,0,0.4)"
         Padding="Padding.Is4">
         <DisplayHeading Size="DisplayHeadingSize.Is1" TextColor="TextColor.White" TextWeight="TextWeight.Bold">
-            INNOVATING EXCELLENCE</DisplayHeading>
+            COMMITMENT TO FULL SERVICE</DisplayHeading>
 
-        <Lead TextSize="TextSize.Heading1" TextColor="TextColor.White">TODO
+        <Lead TextSize="TextSize.Heading1" TextColor="TextColor.White">PRODUCING HIGH-QUALITY RESULTS
         </Lead>
 
-        <Paragraph TextSize="TextSize.Large" TextColor="TextColor.White" Padding="Padding.Is4.OnY">TODO
+        <Paragraph TextSize="TextSize.Large" TextColor="TextColor.White" Padding="Padding.Is4.OnY">Our team is dedicated
+            to going beyond customer expectations. We are dedicated to seamlessly integrating with your operations,
+            acting as a natural extension of your team.
         </Paragraph>
 
-        <Button TextColor="TextColor.White" Color="Color.Primary" Type="ButtonType.Link" To="#leaders-section">LEARN
+        <Button TextColor="TextColor.White" Color="Color.Primary"
+            Clicked='() => navManager.NavigateTo("/#leaders-section")'>LEARN
             MORE</Button>
     </Column>
     <Column ColumnSize="ColumnSize.Is5"></Column>

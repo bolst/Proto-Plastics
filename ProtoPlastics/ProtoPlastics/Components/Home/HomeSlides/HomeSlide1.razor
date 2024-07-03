@@ -1,4 +1,5 @@
 @namespace ProtoPlastics.Components
+@inject NavigationManager navManager
 
 <Grid RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile">
     <Column ColumnSize="ColumnSize.Is1"></Column>
@@ -12,12 +13,12 @@
         </Lead>
 
         <Paragraph TextSize="TextSize.Large" TextColor="TextColor.White" Padding="Padding.Is4.OnY">We specialize in
-            delivering
-            high-quality, custom plastic injection molding solutions tailored to meet the unique needs of your industry.
-            With decades of experience and a commitment to excellence, we transform your vision into reality.
+            delivering high-quality, custom plastic injection molding solutions tailored to meet the unique needs of
+            your industry.
         </Paragraph>
 
-        <Button TextColor="TextColor.White" Background="Background.Primary">LEARN MORE</Button>
+        <Button TextColor="TextColor.White" Background="Background.Primary"
+            Clicked='() => navManager.NavigateTo("/#leaders-section")'>LEARN MORE</Button>
     </Column>
     <Column ColumnSize="ColumnSize.Is5"></Column>
 </Grid>
