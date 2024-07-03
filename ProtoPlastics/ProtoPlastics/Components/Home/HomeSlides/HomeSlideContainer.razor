@@ -1,30 +1,11 @@
 @namespace ProtoPlastics.Components
 
 <CarouselSlide Name="@Name">
-    <Div Class="@("home-slide-class" + Name)" Height="Height.Em(50)">
+    <Div Class="slide-container">
         @ChildContent
     </Div>
 </CarouselSlide>
 
-<style>
-    .home-slide-class1 {
-        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.5)), url('shop.png');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .home-slide-class2 {
-        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.5)), url('3000 Ton Haitian 600 oz.png');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .home-slide-class3 {
-        background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(0, 0, 0, 0.5)), url('shop.png');
-        background-position: center;
-        background-size: cover;
-    }
-</style>
 
 @code {
     [Parameter] public RenderFragment? ChildContent { get; set; }

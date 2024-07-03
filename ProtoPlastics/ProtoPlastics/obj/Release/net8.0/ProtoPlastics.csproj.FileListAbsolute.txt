@@ -42,3 +42,7 @@
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Release/net8.0/ProtoPlastics.pdb
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Release/net8.0/ProtoPlastics.genruntimeconfig.cache
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/Release/net8.0/ref/ProtoPlastics.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Release/net8.0/Blazorise.Animate.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Release/net8.0/Blazorise.Captcha.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Release/net8.0/Blazorise.Captcha.ReCaptcha.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Release/net8.0/LeafletForBlazor.dll

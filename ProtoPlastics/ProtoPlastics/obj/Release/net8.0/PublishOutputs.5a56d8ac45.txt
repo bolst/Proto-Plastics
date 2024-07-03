@@ -6,9 +6,13 @@
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/ProtoPlastics.runtimeconfig.json
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/ProtoPlastics.pdb
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Animate.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Bootstrap5.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Captcha.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Captcha.ReCaptcha.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Icons.FontAwesome.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Blazorise.Licensing.dll
+/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/LeafletForBlazor.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Microsoft.AspNetCore.Authorization.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Microsoft.AspNetCore.Components.dll
 /Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/bin/Publish/Microsoft.AspNetCore.Components.Forms.dll
