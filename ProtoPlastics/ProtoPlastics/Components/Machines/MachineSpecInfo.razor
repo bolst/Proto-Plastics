@@ -3,12 +3,12 @@
 @if (Specs != null)
 {
     <Accordion Width="Width.Is75" Margin="Margin.IsAuto" Shadow="Shadow.Large">
-    @foreach (var machineSpec in Specs)
+        @foreach (var machineSpec in Specs)
         {
             Data.Spec spec = machineSpec;
             @MachineSpecAccordionItem(spec)
         }
-        </Accordion>
+    </Accordion>
 }
 
 

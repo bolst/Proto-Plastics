@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r5aws9dZbDmVFuVtk7olWrzFgCTrhzaGMT83hvpeK9I=",
+  "Hash": "L+8bInKoJ8NxUOkhicwZkucThkSym3mUagv+QlpwZLo=",
   "Source": "ProtoPlastics",
   "BasePath": "_content/ProtoPlastics",
   "Mode": "Default",
@@ -2333,25 +2333,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\steel.png"
-    },
-    {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\leafletmap.js",
-      "SourceId": "ProtoPlastics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
-      "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "leafletmap.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\leafletmap.js"
     },
     {
       "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\machine-specs.json",
