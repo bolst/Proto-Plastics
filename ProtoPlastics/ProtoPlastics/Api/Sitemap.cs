@@ -6,7 +6,6 @@ namespace ProtoPlastics.Api
 {
     public class Sitemap
     {
-        private readonly NavigationManager _navManager;
         public static async Task Generate(HttpContext context)
         {
             // Console.WriteLine("Generating Sitemap");
