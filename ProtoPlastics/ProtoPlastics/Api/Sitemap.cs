@@ -18,8 +18,10 @@ namespace ProtoPlastics.Api
             sb.AppendLine("""<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">""");
             foreach (var page in pages)
             {
+                string pageName = page.Name.ToLower();
+                if (pageName == "home") pageName = "";
                 sb.AppendLine("<url>");
-                sb.AppendLine($"<loc>https://protoplastics.ca/{page.Name.ToLower()}</loc>");
+                sb.AppendLine($"<loc>https://protoplastics.ca/{pageName}</loc>");
                 sb.AppendLine("</url>");
             }
             sb.AppendLine("</urlset>");
