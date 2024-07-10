@@ -3,12 +3,12 @@
 @if (Specs != null)
 {
     <Accordion Width="Width.Is75" Margin="Margin.IsAuto" Shadow="Shadow.Large">
-        @foreach (var machineSpec in Specs)
+    @foreach (var machineSpec in Specs)
         {
             Data.Spec spec = machineSpec;
             @MachineSpecAccordionItem(spec)
         }
-    </Accordion>
+        </Accordion>
 }
 
 
@@ -36,7 +36,8 @@
             <Row RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is3">
                 <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center"
                     Margin="Margin.IsAuto" Padding="Padding.Is4.OnY.OnMobile">
-                    <Image Source="empty-image.png" Text="@spec.Name" Shadow="Shadow.Default" Border="Border.Rounded" Fluid />
+                    <Image Loading Source="images/empty-image.png" Text="@spec.Name" Shadow="Shadow.Default"
+                        Border="Border.Rounded" Fluid />
                 </Column>
                 <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile" TextAlignment="TextAlignment.Center">
                     @ClampSpecInfoItem(spec.ClampSpecs!)

@@ -1,16 +1,22 @@
 @namespace ProtoPlastics.Components
 
+@*
 <Carousel @bind-SelectedSlide="@selectedSlide" ShowControls=false Interval="5000">
-    <HomeSlideContainer Name="1">
-        <HomeSlide1 />
-    </HomeSlideContainer>
-    <HomeSlideContainer Name="2">
-        <HomeSlide2 />
-    </HomeSlideContainer>
-    <HomeSlideContainer Name="3">
-        <HomeSlide3 />
-    </HomeSlideContainer>
+<HomeSlideContainer Name="1">
+<HomeSlide1 />
+</HomeSlideContainer>
+<HomeSlideContainer Name="2">
+<HomeSlide2 />
+</HomeSlideContainer>
+<HomeSlideContainer Name="3">
+<HomeSlide3 />
+</HomeSlideContainer>
 </Carousel>
+*@
+
+<HomeSlideContainer Name="1">
+    <HomeSlide1 />
+</HomeSlideContainer>
 
 @code {
     private string selectedSlide = "1";

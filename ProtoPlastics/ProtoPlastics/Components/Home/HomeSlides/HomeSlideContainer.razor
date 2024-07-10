@@ -1,11 +1,17 @@
 @namespace ProtoPlastics.Components
 
+@*
 <CarouselSlide Name="@Name">
-    <Div Class="slide-container">
-        @ChildContent
-    </Div>
+<Div Class="slide-container">
+@ChildContent
+</Div>
 </CarouselSlide>
+*@
 
+
+<Div Class="slide-container">
+    @ChildContent
+</Div>
 
 @code {
     [Parameter] public RenderFragment? ChildContent { get; set; }
