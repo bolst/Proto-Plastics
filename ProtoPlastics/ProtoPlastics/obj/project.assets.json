@@ -1016,24 +1016,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/nic/.nuget/packages/": {}
+    "C:\\Users\\nicbo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.5.0",
     "restore": {
-      "projectUniqueName": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
+      "projectUniqueName": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
       "projectName": "ProtoPlastics",
-      "projectPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/ProtoPlastics.csproj",
-      "packagesPath": "/Users/nic/.nuget/packages/",
-      "outputPath": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/obj/",
+      "projectPath": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\ProtoPlastics.csproj",
+      "packagesPath": "C:\\Users\\nicbo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/nic/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\nicbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1046,6 +1054,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1100,7 +1113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

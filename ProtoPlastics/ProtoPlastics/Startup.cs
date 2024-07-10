@@ -1,5 +1,6 @@
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
+using Microsoft.AspNetCore.Components;
 
 
 namespace ProtoPlastics;
@@ -49,6 +50,10 @@ public class Startup
 
         app.UseEndpoints(endpoints =>
         {
+            endpoints.MapGet("/sitemap.xml", async context =>
+            {
+                await Api.Sitemap.Generate(context);
+            });
             endpoints.MapBlazorHub();
             endpoints.MapFallbackToPage("/_Host");
         });
