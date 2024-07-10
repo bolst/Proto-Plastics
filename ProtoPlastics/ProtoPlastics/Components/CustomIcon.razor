@@ -3,7 +3,7 @@
 @if (IconSource != null)
 {
     <Figure Size="@IconSize" Margin="Margin.IsAuto">
-        <FigureImage Source="@IconSource" />
+        <FigureImage Source="@IconSource" AlternateText="@(IconSource.Replace(".png", ""))" />
     </Figure>
 }
 

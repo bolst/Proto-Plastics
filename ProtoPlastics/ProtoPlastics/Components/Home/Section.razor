@@ -23,7 +23,7 @@
         var columnSize = (RightImage == null) ? ColumnSize.Is4.OnTablet.Is8.OnMobile :
         ColumnSize.Is2.OnTablet.Is8.OnMobile;
         <Column ColumnSize="@columnSize" Margin="Margin.IsAuto">
-            <Image Source="@LeftImage" Padding="Padding.Is4" Fluid />
+            <Image Source="@LeftImage" Padding="Padding.Is4" Text="@(LeftImage.Replace(".png", ""))" Fluid />
         </Column>
     }
     <Column ColumnSize="@midColumnSize" Margin="Margin.IsAuto" Padding="Padding.Is4.FromStart.OnMobile">
@@ -35,7 +35,7 @@
         var columnSize = (LeftImage == null) ? ColumnSize.Is4.OnTablet.Is8.OnMobile :
         ColumnSize.Is2.OnTablet.Is8.OnMobile;
         <Column ColumnSize="@columnSize" Margin="Margin.IsAuto">
-            <Image Source="@RightImage" Padding="Padding.Is4" Fluid />
+            <Image Source="@RightImage" Padding="Padding.Is4" Text="@(RightImage.Replace(".png", ""))" Fluid />
         </Column>
     }
 </Grid>

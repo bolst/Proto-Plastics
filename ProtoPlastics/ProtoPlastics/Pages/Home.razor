@@ -2,6 +2,11 @@
 @inject IVersionProvider VersionProvider
 @inject NavigationManager navManager
 
+<HeadContent>
+    <meta name="description"
+        content="Proto-Plastics Canada: specializing in plastic injection molding for over 50 years.">
+</HeadContent>
+
 <HomeIntro />
 
 <br>
@@ -21,7 +26,7 @@
 
 <Div Padding="Padding.Is4.FromTop">
     <Div class="leaders-container" id="leaders-section">
-        <img src="images/building-outside.png" class="leaders-background" loading="lazy" />
+        <img src="images/building-outside.png" class="leaders-background" loading="lazy" alt="our building" />
         <Section Header="LEADERS NOT FOLLOWERS" HeaderColor="TextColor.White" RightImage="proto-logo-white.png">
             <Lead TextSize="TextSize.Large" TextColor="TextColor.White" Padding="Padding.Is4">For over half a century,
                 Proto-Plastics has been a
@@ -59,7 +64,7 @@
                 Hydraulic mold ejects
             </UnorderedListItem>
         </UnorderedList>
-        <Button Color="Color.Primary" To="/machines" Type="ButtonType.Link">SEE MORE</Button>
+        <Button Color="Color.Primary" aria-label="view machines in shop">VIEW MACHINES</Button>
     </Section>
 </Div>
 
