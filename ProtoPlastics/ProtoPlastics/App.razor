@@ -4,6 +4,10 @@
             <RouteView RouteData="routeData" DefaultLayout="typeof(ProtoPlastics.Layouts.MainLayout)" />
         </Found>
         <NotFound>
+            <h1>404 Not Found</h1>
+            <HeadContent>
+                <meta name="robots" content="noindex" />
+            </HeadContent>
             <p>Sorry, there's nothing at this address.</p>
         </NotFound>
     </Router>
