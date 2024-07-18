@@ -1,155 +1,151 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\brand-logo.png",
-      "PackagePath": "staticwebassets\\brand-logo.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/blazor-ui.css",
+      "PackagePath": "staticwebassets/css/blazor-ui.css"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\css\\blazor-ui.css",
-      "PackagePath": "staticwebassets\\css\\blazor-ui.css"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/fonts/IBMPlexSans-Bold.ttf",
+      "PackagePath": "staticwebassets/css/fonts/IBMPlexSans-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\css\\fonts\\IBMPlexSans-Bold.ttf",
-      "PackagePath": "staticwebassets\\css\\fonts\\IBMPlexSans-Bold.ttf"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/fonts/IBMPlexSans-Regular.ttf",
+      "PackagePath": "staticwebassets/css/fonts/IBMPlexSans-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\css\\fonts\\IBMPlexSans-Regular.ttf",
-      "PackagePath": "staticwebassets\\css\\fonts\\IBMPlexSans-Regular.ttf"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/googlebc410aeab6875ab0.html",
+      "PackagePath": "staticwebassets/googlebc410aeab6875ab0.html"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\googlebc410aeab6875ab0.html",
-      "PackagePath": "staticwebassets\\googlebc410aeab6875ab0.html"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/clock.png",
+      "PackagePath": "staticwebassets/icons/clock.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\clock.png",
-      "PackagePath": "staticwebassets\\icons\\clock.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/crane.png",
+      "PackagePath": "staticwebassets/icons/crane.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\crane.png",
-      "PackagePath": "staticwebassets\\icons\\crane.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/injection.png",
+      "PackagePath": "staticwebassets/icons/injection.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\injection.png",
-      "PackagePath": "staticwebassets\\icons\\injection.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/molding-machine.png",
+      "PackagePath": "staticwebassets/icons/molding-machine.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\molding-machine.png",
-      "PackagePath": "staticwebassets\\icons\\molding-machine.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/mould.png",
+      "PackagePath": "staticwebassets/icons/mould.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\mould.png",
-      "PackagePath": "staticwebassets\\icons\\mould.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/icons/steel.png",
+      "PackagePath": "staticwebassets/icons/steel.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\icons\\steel.png",
-      "PackagePath": "staticwebassets\\icons\\steel.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/100 Ton Engel 6 oz.png",
+      "PackagePath": "staticwebassets/images/100 Ton Engel 6 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\100 Ton Engel 6 oz.png",
-      "PackagePath": "staticwebassets\\images\\100 Ton Engel 6 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/1000 Ton Van Dorn 165 oz.png",
+      "PackagePath": "staticwebassets/images/1000 Ton Van Dorn 165 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1000 Ton Van Dorn 165 oz.png",
-      "PackagePath": "staticwebassets\\images\\1000 Ton Van Dorn 165 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/1100 Ton Van Dorn 140 oz.png",
+      "PackagePath": "staticwebassets/images/1100 Ton Van Dorn 140 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1100 Ton Van Dorn 140 oz.png",
-      "PackagePath": "staticwebassets\\images\\1100 Ton Van Dorn 140 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/170 Ton Van Dorn 14 oz.png",
+      "PackagePath": "staticwebassets/images/170 Ton Van Dorn 14 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\170 Ton Van Dorn 14 oz.png",
-      "PackagePath": "staticwebassets\\images\\170 Ton Van Dorn 14 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/1800 Ton Haitian 200 oz.png",
+      "PackagePath": "staticwebassets/images/1800 Ton Haitian 200 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1800 Ton Haitian 200 oz.png",
-      "PackagePath": "staticwebassets\\images\\1800 Ton Haitian 200 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/2000 Ton Haitian 400 oz.png",
+      "PackagePath": "staticwebassets/images/2000 Ton Haitian 400 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\2000 Ton Haitian 400 oz.png",
-      "PackagePath": "staticwebassets\\images\\2000 Ton Haitian 400 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/230 Ton Van Dorn 20 oz.png",
+      "PackagePath": "staticwebassets/images/230 Ton Van Dorn 20 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\230 Ton Van Dorn 20 oz.png",
-      "PackagePath": "staticwebassets\\images\\230 Ton Van Dorn 20 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/3000 Ton Haitian 600 oz.png",
+      "PackagePath": "staticwebassets/images/3000 Ton Haitian 600 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\3000 Ton Haitian 600 oz.png",
-      "PackagePath": "staticwebassets\\images\\3000 Ton Haitian 600 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/315 Ton Haitian 15 oz.png",
+      "PackagePath": "staticwebassets/images/315 Ton Haitian 15 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\315 Ton Haitian 15 oz.png",
-      "PackagePath": "staticwebassets\\images\\315 Ton Haitian 15 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/400 Ton Van Dorn 30 oz.png",
+      "PackagePath": "staticwebassets/images/400 Ton Van Dorn 30 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\400 Ton Van Dorn 30 oz.png",
-      "PackagePath": "staticwebassets\\images\\400 Ton Van Dorn 30 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/500 Ton Van Dorn 80 oz.png",
+      "PackagePath": "staticwebassets/images/500 Ton Van Dorn 80 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\500 Ton Van Dorn 80 oz.png",
-      "PackagePath": "staticwebassets\\images\\500 Ton Van Dorn 80 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/700 Ton Van Dorn 125 oz.png",
+      "PackagePath": "staticwebassets/images/700 Ton Van Dorn 125 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\700 Ton Van Dorn 125 oz.png",
-      "PackagePath": "staticwebassets\\images\\700 Ton Van Dorn 125 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/730 Ton Haitian 45.68 oz.png",
+      "PackagePath": "staticwebassets/images/730 Ton Haitian 45.68 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\730 Ton Haitian 45.68 oz.png",
-      "PackagePath": "staticwebassets\\images\\730 Ton Haitian 45.68 oz.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/building-outside.png",
+      "PackagePath": "staticwebassets/images/building-outside.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\building-outside.png",
-      "PackagePath": "staticwebassets\\images\\building-outside.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/empty-image.png",
+      "PackagePath": "staticwebassets/images/empty-image.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\empty-image.png",
-      "PackagePath": "staticwebassets\\images\\empty-image.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/shop.png",
+      "PackagePath": "staticwebassets/images/shop.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\shop.png",
-      "PackagePath": "staticwebassets\\images\\shop.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/images/shop.svg",
+      "PackagePath": "staticwebassets/images/shop.svg"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\shop.svg",
-      "PackagePath": "staticwebassets\\images\\shop.svg"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/machine-specs.json",
+      "PackagePath": "staticwebassets/machine-specs.json"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\machine-specs.json",
-      "PackagePath": "staticwebassets\\machine-specs.json"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo-black.svg",
+      "PackagePath": "staticwebassets/proto-logo-black.svg"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\proto-logo-black.svg",
-      "PackagePath": "staticwebassets\\proto-logo-black.svg"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo-white.png",
+      "PackagePath": "staticwebassets/proto-logo-white.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\proto-logo-white.png",
-      "PackagePath": "staticwebassets\\proto-logo-white.png"
+      "Id": "/Users/nic/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/wwwroot/proto-logo.png",
+      "PackagePath": "staticwebassets/proto-logo.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\proto-logo.png",
-      "PackagePath": "staticwebassets\\proto-logo.png"
-    },
-    {
-      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ProtoPlastics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.ProtoPlastics.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ProtoPlastics.props",
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.ProtoPlastics.props",
       "PackagePath": "build\\ProtoPlastics.props"
     },
     {
-      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProtoPlastics.props",
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.ProtoPlastics.props",
       "PackagePath": "buildMultiTargeting\\ProtoPlastics.props"
     },
     {
-      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProtoPlastics.props",
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.ProtoPlastics.props",
       "PackagePath": "buildTransitive\\ProtoPlastics.props"
     }
   ],
