@@ -6,7 +6,7 @@
     /* height: 50em; */
     background-size: cover;
     background-position: center center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slide-background {
@@ -23,9 +23,9 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .leaders-background {
@@ -33,5 +33,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     z-index: -1;
 }

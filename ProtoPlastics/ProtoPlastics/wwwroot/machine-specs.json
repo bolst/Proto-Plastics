@@ -2,6 +2,7 @@
     "specs": [
         {
             "name": "100 Ton Engel 6 oz",
+            "img": "100 Ton Engel 6 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -79,6 +80,7 @@
         },
         {
             "name": "170 Ton Van Dorn 14 oz",
+            "img": "170 Ton Van Dorn 14 oz.png",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -156,6 +158,7 @@
         },
         {
             "name": "230 Ton Van Dorn 20 oz",
+            "img": "230 Ton Van Dorn 20 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -233,6 +236,7 @@
         },
         {
             "name": "315 Ton Haitian 15 oz",
+            "img": "315 Ton Haitian 15 oz.png",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -310,6 +314,7 @@
         },
         {
             "name": "400 Ton Van Dorn 30 oz",
+            "img": "400 Ton Van Dorn 30 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -387,6 +392,7 @@
         },
         {
             "name": "500 Ton Van Dorn 80 oz",
+            "img": "500 Ton Van Dorn 80 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -464,6 +470,7 @@
         },
         {
             "name": "700 Ton Van Dorn 125 oz",
+            "img": "700 Ton Van Dorn 125 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -541,6 +548,7 @@
         },
         {
             "name": "730 Ton Haitian 45.68 oz",
+            "img": "730 Ton Haitian 45.68 oz.png",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -618,6 +626,7 @@
         },
         {
             "name": "1000 Ton Van Dorn 165 oz",
+            "img": "1000 Ton Van Dorn 165 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -695,6 +704,7 @@
         },
         {
             "name": "1100 Ton Van Dorn 140 oz",
+            "img": "1100 Ton Van Dorn 140 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -772,6 +782,7 @@
         },
         {
             "name": "1800 Ton Haitian 200 oz",
+            "img": "1800 Ton Haitian 200 oz.png",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -848,7 +859,8 @@
             ]
         },
         {
-            "name": "2000 Ton Haitian 400 oz",
+            "name": "2000 Ton Van Dorn 400 oz",
+            "img": "2000 Ton Van Dorn 400 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",
@@ -925,7 +937,8 @@
             ]
         },
         {
-            "name": "3000 Ton Haitian 600 oz",
+            "name": "3000 Ton Van Dorn 600 oz",
+            "img": "3000 Ton Van Dorn 600 oz.webp",
             "clamp specs": [
                 {
                     "label": "Max Daylight",

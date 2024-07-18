@@ -24,6 +24,7 @@ namespace ProtoPlastics.Data
     public class Spec
     {
         [JsonPropertyName("name")] public string? Name { get; set; }
+        [JsonPropertyName("img")] public string? Image { get; set; }
 
         [JsonPropertyName("clamp specs")] public List<ClampSpec>? ClampSpecs { get; set; }
 

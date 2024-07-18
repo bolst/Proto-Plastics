@@ -53,7 +53,7 @@
                         foreach (var machineSpec in machineSpecs)
                         {
                             Data.Spec spec = machineSpec;
-                            string imageSource = "images/" + spec.Name + ".png";
+                            string imageSource = "images/" + spec.Image;
                             <Div id="@spec.Name">
                                 <Row RowColumns="RowColumns.Are3.OnTablet.Are1.OnMobile" Padding="Padding.Is3">
                                     <Column ColumnSize="ColumnSize.Is4.OnTablet.Is12.OnMobile"
