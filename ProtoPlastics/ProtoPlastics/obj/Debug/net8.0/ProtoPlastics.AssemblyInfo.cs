@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Megabit")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2018-2024 Megabit")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n\t\t\tThis is a Blazorise Template for a Blazor Server Application.\r\n\t\t\tBlazorise " +
     "is a component library built on top of Blazor and CSS frameworks like Bootstrap," +

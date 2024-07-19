@@ -49,16 +49,16 @@
       "PackagePath": "staticwebassets\\icons\\steel.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\100 Ton Engel 6 oz.png",
-      "PackagePath": "staticwebassets\\images\\100 Ton Engel 6 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\100 Ton Engel 6 oz.webp",
+      "PackagePath": "staticwebassets\\images\\100 Ton Engel 6 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1000 Ton Van Dorn 165 oz.png",
-      "PackagePath": "staticwebassets\\images\\1000 Ton Van Dorn 165 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1000 Ton Van Dorn 165 oz.webp",
+      "PackagePath": "staticwebassets\\images\\1000 Ton Van Dorn 165 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1100 Ton Van Dorn 140 oz.png",
-      "PackagePath": "staticwebassets\\images\\1100 Ton Van Dorn 140 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1100 Ton Van Dorn 140 oz.webp",
+      "PackagePath": "staticwebassets\\images\\1100 Ton Van Dorn 140 oz.webp"
     },
     {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\170 Ton Van Dorn 14 oz.png",
@@ -69,32 +69,32 @@
       "PackagePath": "staticwebassets\\images\\1800 Ton Haitian 200 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\2000 Ton Haitian 400 oz.png",
-      "PackagePath": "staticwebassets\\images\\2000 Ton Haitian 400 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\2000 Ton Van Dorn 400 oz.webp",
+      "PackagePath": "staticwebassets\\images\\2000 Ton Van Dorn 400 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\230 Ton Van Dorn 20 oz.png",
-      "PackagePath": "staticwebassets\\images\\230 Ton Van Dorn 20 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\230 Ton Van Dorn 20 oz.webp",
+      "PackagePath": "staticwebassets\\images\\230 Ton Van Dorn 20 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\3000 Ton Haitian 600 oz.png",
-      "PackagePath": "staticwebassets\\images\\3000 Ton Haitian 600 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\3000 Ton Van Dorn 600 oz.webp",
+      "PackagePath": "staticwebassets\\images\\3000 Ton Van Dorn 600 oz.webp"
     },
     {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\315 Ton Haitian 15 oz.png",
       "PackagePath": "staticwebassets\\images\\315 Ton Haitian 15 oz.png"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\400 Ton Van Dorn 30 oz.png",
-      "PackagePath": "staticwebassets\\images\\400 Ton Van Dorn 30 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\400 Ton Van Dorn 30 oz.webp",
+      "PackagePath": "staticwebassets\\images\\400 Ton Van Dorn 30 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\500 Ton Van Dorn 80 oz.png",
-      "PackagePath": "staticwebassets\\images\\500 Ton Van Dorn 80 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\500 Ton Van Dorn 80 oz.webp",
+      "PackagePath": "staticwebassets\\images\\500 Ton Van Dorn 80 oz.webp"
     },
     {
-      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\700 Ton Van Dorn 125 oz.png",
-      "PackagePath": "staticwebassets\\images\\700 Ton Van Dorn 125 oz.png"
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\700 Ton Van Dorn 125 oz.webp",
+      "PackagePath": "staticwebassets\\images\\700 Ton Van Dorn 125 oz.webp"
     },
     {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\730 Ton Haitian 45.68 oz.png",
@@ -115,6 +115,10 @@
     {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\shop.svg",
       "PackagePath": "staticwebassets\\images\\shop.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\shop.webp",
+      "PackagePath": "staticwebassets\\images\\shop.webp"
     },
     {
       "Id": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\machine-specs.json",

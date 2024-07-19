@@ -36,3 +36,7 @@
     object-fit: cover;
     z-index: -1;
 }
+
+#components-reconnect-modal {
+    display: none !important;
+}

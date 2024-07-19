@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XVgQ/2L4SRkljeBRxD11Sb06xix+xrsNNNlCCdHvihI=",
+  "Hash": "M8BPxxDx59kM1vkuoUVLP3b7T2fzgBiIg+ohmiUZMYE=",
   "Source": "ProtoPlastics",
   "BasePath": "_content/ProtoPlastics",
   "Mode": "Default",
@@ -2069,12 +2069,12 @@
       "OriginalItemSpec": "wwwroot\\icons\\steel.png"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\100 Ton Engel 6 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\100 Ton Engel 6 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/100 Ton Engel 6 oz.png",
+      "RelativePath": "images/100 Ton Engel 6 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2085,15 +2085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\100 Ton Engel 6 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\100 Ton Engel 6 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1000 Ton Van Dorn 165 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1000 Ton Van Dorn 165 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/1000 Ton Van Dorn 165 oz.png",
+      "RelativePath": "images/1000 Ton Van Dorn 165 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2104,15 +2104,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\1000 Ton Van Dorn 165 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\1000 Ton Van Dorn 165 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1100 Ton Van Dorn 140 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\1100 Ton Van Dorn 140 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/1100 Ton Van Dorn 140 oz.png",
+      "RelativePath": "images/1100 Ton Van Dorn 140 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2123,7 +2123,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\1100 Ton Van Dorn 140 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\1100 Ton Van Dorn 140 oz.webp"
     },
     {
       "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\170 Ton Van Dorn 14 oz.png",
@@ -2164,12 +2164,12 @@
       "OriginalItemSpec": "wwwroot\\images\\1800 Ton Haitian 200 oz.png"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\2000 Ton Haitian 400 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\2000 Ton Van Dorn 400 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/2000 Ton Haitian 400 oz.png",
+      "RelativePath": "images/2000 Ton Van Dorn 400 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2180,15 +2180,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\2000 Ton Haitian 400 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\2000 Ton Van Dorn 400 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\230 Ton Van Dorn 20 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\230 Ton Van Dorn 20 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/230 Ton Van Dorn 20 oz.png",
+      "RelativePath": "images/230 Ton Van Dorn 20 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2199,15 +2199,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\230 Ton Van Dorn 20 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\230 Ton Van Dorn 20 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\3000 Ton Haitian 600 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\3000 Ton Van Dorn 600 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/3000 Ton Haitian 600 oz.png",
+      "RelativePath": "images/3000 Ton Van Dorn 600 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2218,7 +2218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3000 Ton Haitian 600 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\3000 Ton Van Dorn 600 oz.webp"
     },
     {
       "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\315 Ton Haitian 15 oz.png",
@@ -2240,12 +2240,12 @@
       "OriginalItemSpec": "wwwroot\\images\\315 Ton Haitian 15 oz.png"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\400 Ton Van Dorn 30 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\400 Ton Van Dorn 30 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/400 Ton Van Dorn 30 oz.png",
+      "RelativePath": "images/400 Ton Van Dorn 30 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2256,15 +2256,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\400 Ton Van Dorn 30 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\400 Ton Van Dorn 30 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\500 Ton Van Dorn 80 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\500 Ton Van Dorn 80 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/500 Ton Van Dorn 80 oz.png",
+      "RelativePath": "images/500 Ton Van Dorn 80 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2275,15 +2275,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\500 Ton Van Dorn 80 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\500 Ton Van Dorn 80 oz.webp"
     },
     {
-      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\700 Ton Van Dorn 125 oz.png",
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\700 Ton Van Dorn 125 oz.webp",
       "SourceId": "ProtoPlastics",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
       "BasePath": "_content/ProtoPlastics",
-      "RelativePath": "images/700 Ton Van Dorn 125 oz.png",
+      "RelativePath": "images/700 Ton Van Dorn 125 oz.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2294,7 +2294,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\700 Ton Van Dorn 125 oz.png"
+      "OriginalItemSpec": "wwwroot\\images\\700 Ton Van Dorn 125 oz.webp"
     },
     {
       "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\730 Ton Haitian 45.68 oz.png",
@@ -2390,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\shop.svg"
+    },
+    {
+      "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\images\\shop.webp",
+      "SourceId": "ProtoPlastics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\",
+      "BasePath": "_content/ProtoPlastics",
+      "RelativePath": "images/shop.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\shop.webp"
     },
     {
       "Identity": "C:\\Users\\nicbo\\git\\Proto-Plastics\\ProtoPlastics\\ProtoPlastics\\wwwroot\\machine-specs.json",

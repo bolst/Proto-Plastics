@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProtoPlastics
+build_property.RootNamespace = ProtoPlastics
+build_property.ProjectDir = C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nicbo\git\Proto-Plastics\ProtoPlastics\ProtoPlastics
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/CustomIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21JY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/ContactForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXENvbnRhY3RGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/HomeIntro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXEhvbWVJbnRyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/HomeSlides/HomeSlide1.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXEhvbWVTbGlkZXNcSG9tZVNsaWRlMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/HomeSlides/HomeSlide2.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXEhvbWVTbGlkZXNcSG9tZVNsaWRlMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/HomeSlides/HomeSlide3.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXEhvbWVTbGlkZXNcSG9tZVNsaWRlMy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/HomeSlides/HomeSlideContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXEhvbWVTbGlkZXNcSG9tZVNsaWRlQ29udGFpbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/Section.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/ServiceContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNlcnZpY2VDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/ServiceItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNlcnZpY2VJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Home/SloganCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lXFNsb2dhbkNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Layout/FooterMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Layout/TopMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Layout/TopMenuItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudUl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/Machines/MachineSpecInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWNoaW5lc1xNYWNoaW5lU3BlY0luZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Components/ProtoMap.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm90b01hcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Machines.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicbo/git/Proto-Plastics/ProtoPlastics/ProtoPlastics/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
