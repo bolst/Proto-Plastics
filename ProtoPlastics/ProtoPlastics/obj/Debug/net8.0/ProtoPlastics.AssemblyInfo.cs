@@ -13,11 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Megabit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2018-2024 Megabit")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("\n\t\t\tThis is a Blazorise Template for a Blazor Server Application.\n\t\t\tBlazorise is" +
-    " a component library built on top of Blazor and CSS frameworks like Bootstrap, F" +
-    "luentUI2, Tailwind, Bulma and Material.\n\t\t")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n\t\t\tThis is a Blazorise Template for a Blazor Server Application.\r\n\t\t\tBlazorise " +
+    "is a component library built on top of Blazor and CSS frameworks like Bootstrap," +
+    " FluentUI2, Tailwind, Bulma and Material.\r\n\t\t")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5+598a8cb1e3acb83c0f96cf4386722b0e8fd2ac32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5+30eebbceb9ac7e8cbe08e6f0267cd7e6c261406d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProtoPlastics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProtoPlastics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.5.0.0")]
