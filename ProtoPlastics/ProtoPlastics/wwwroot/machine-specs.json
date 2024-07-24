@@ -848,7 +848,7 @@
                 },
                 {
                     "label": "Intensifcation Ratio",
-                    "value": "8.7:1",
+                    "value": "8.7",
                     "unit": ""
                 },
                 {
@@ -875,7 +875,7 @@
                 {
                     "label": "Mold Height (max)",
                     "value": "",
-                    "unit": "inches"
+                    "unit": ""
                 },
                 {
                     "label": "Distance between Tiebars (HxV)",
@@ -953,7 +953,7 @@
                 {
                     "label": "Mold Height (max)",
                     "value": "",
-                    "unit": "inches"
+                    "unit": ""
                 },
                 {
                     "label": "Distance between Tiebars (HxV)",
