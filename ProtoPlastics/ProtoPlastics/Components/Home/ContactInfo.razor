@@ -1,0 +1,52 @@
+@namespace ProtoPlastics.Components
+@inject NavigationManager navManager
+
+<Grid RowColumns="RowColumns.Are2.OnTablet.Are1.OnMobile" Padding="Padding.Is4.FromBottom.OnTablet">
+    <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" Margin="Margin.IsAuto">
+        @* <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
+            @ContactItemRF(IconName.MapMarkerAlt, Api.Content.Address.FullAddress(), mapsLink)
+        </Row>
+        <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
+            @ContactItemRF(IconName.Phone, Api.Content.Phone.Number, Api.Content.Phone.HTMLRef)
+        </Row>
+         <Row TextAlignment="TextAlignment.Center" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
+        @ContactItemRF(IconName.Mail, Api.Content.Email.Address, Api.Content.Email.HTMLRef)
+        </Row>  *@
+        <Figure Size="FigureSize.Is256x256">
+            <FigureImage Source="proto-logo-black.svg" />
+        </Figure>
+    </Column>
+    <Column ColumnSize="ColumnSize.Is6.OnTablet.Is12.OnMobile" Background="Background.Dark" Padding="Padding.Is4">
+        <Row><br></Row>
+
+            <Row>
+                <DisplayHeading Size="DisplayHeadingSize.Is4" TextColor="TextColor.White">CONTACT US</DisplayHeading>
+            </Row>
+
+                    <Row TextAlignment="TextAlignment.Start" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
+            @ContactItemRF(IconName.MapMarkerAlt, Api.Content.Address.FullAddress(), mapsLink)
+        </Row>
+        <Row TextAlignment="TextAlignment.Start" Margin="Margin.IsAuto" Padding="Padding.Is4.OnY">
+            @ContactItemRF(IconName.Phone, Api.Content.Phone.Number, Api.Content.Phone.HTMLRef)
+        </Row>
+
+        <Row><br></Row>
+    </Column>
+</Grid>
+
+
+
+@code {
+    RenderFragment ContactItemRF(IconName iconName, string body, string to) => __builder =>
+    {
+                <Blazorise.Link To="@to" Target="Target.Blank" Unstyled TextColor="TextColor.White">
+                    <Lead TextOverflow="TextOverflow.Wrap" Margin="Margin.IsAuto" TextSize="TextSize.ExtraLarge">
+                        <Icon Name="@iconName" IconSize="IconSize.Large" TextColor="TextColor.White" /> &nbsp @body
+                    </Lead>
+                </Blazorise.Link>
+    };
+
+    string mapsLink =
+    "https://www.google.com/maps/place/Proto+Plastics+Canada+Ltd/@42.2350196,-82.9764213,16z/data=!3m1!4b1!4m6!3m5!1s0x883b290e2ed510b3:0x585ddd600b120f6f!8m2!3d42.2350196!4d-82.9738464!16s%2Fg%2F1tdl6sy0?entry=ttu";
+
+}
